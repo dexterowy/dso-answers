@@ -5,7 +5,7 @@ function App() {
 
   const [category, setCategory] = useState('');
 
-   const categories = useMemo(() => {
+const categories = useMemo(() => {
     return questions.categories.map(category => category.name);
   }, [])
 
@@ -25,7 +25,6 @@ function App() {
         }
         })
       }
-
     }
   }, [category])
 
@@ -42,13 +41,13 @@ function App() {
       <div>
       <p>Pytania</p>
     {Boolean(category) && (<ul>
-        {filteredQuestions.map(fq => {
-          return (<li key={`${fq.question}`}>
+        {filteredQuestions.map((fq, index) => {
+          return (<li key={`${fq.question}-${index}`}>
             {fq.question}
             <ul>
-              {fq.answers.map(anws => {
+              {fq.answers.map((anws, index) => {
                 return (
-                  <li key={`${fq.answers}-${anws.answer}`}>
+                  <li key={`${fq.answers}-${anws.answer}-${index}`}>
                     {anws.correct ? <strong>{anws.answer}</strong> : anws.answer}
                   </li>
                 )
