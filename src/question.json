@@ -1,0 +1,5019 @@
+{
+  "categories": [
+    {
+      "name": "DSO - Windows - Usługi katalogowe",
+      "questions": [
+        {
+          "question": "Wykonanie kwerendy do wyszukiwania wyłaczonych kont uzytkowników jest mozliwe za pomoca:",
+          "answers": [
+            "polecenia ds-query",
+            "polecenia dsquery",
+            "konsoli Active Directory Users and Computers",
+            "polecenia ds-get"
+          ],
+          "values": [
+            false,
+            true,
+            true,
+            false
+          ]
+        },
+        {
+          "question": "Role FSMO mozna:",
+          "answers": [
+            "Przejmowac",
+            "Filtrowac",
+            "Nadpisywac",
+            "Transferowac"
+          ],
+          "values": [
+            true,
+            false,
+            false,
+            true
+          ]
+        },
+        {
+          "question": "W jednostkach organizacyjnych (Organization Unit) mozna utworzyc:",
+          "answers": [
+            "Uzytkownika",
+            "Grupe",
+            "Komputer",
+            "Drukarke"
+          ],
+          "values": [
+            true,
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "question": "Za pomoca jakiego polecenia mozna dodac obiekt okreslonego typu (korzystajac z wiersza polecen) w Active Directory",
+          "answers": [
+            "dscreate user",
+            "dsadd user",
+            "dsadd computer",
+            "dscreate computer"
+          ],
+          "values": [
+            false,
+            true,
+            true,
+            false
+          ]
+        },
+        {
+          "question": "Wybierz prawidłowe odpowiedzi dotyczace struktury Active Directory:",
+          "answers": [
+            "Jesli domeny wchodzace w skład lasu maja nieciagłe nazwy DNS, tworza kilka odrebnych drzew w obrebie lasu",
+            "Drzewo posiada zawsze przynajmniej jedna domene - domene najwyzszego poziomu (ang. root) - korzen drzewa",
+            "Drzewo domen - domeny potomne moga, ale nie musza zawierac nazwy bezposredniej domeny nadrzednej",
+            "Las jest zestawem przynajmniej dwóch lub wiecej drzew, które formuja zwarta, ciagła przestrzen nazw."
+          ],
+          "values": [
+            true,
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "question": "Do czego słuzy polecenie dsget?",
+          "answers": [
+            "Wyswietla rózne własciwosci grupy, włacznie z członkami grupy w katalogu",
+            "Wyswietla własciwosci komputera w katalogu.",
+            "Umozliwia dodawanie uzytkowników, grup, komputerów, kontaktów i jednostek organizacyjnych do usługi Active Directory.",
+            "Umozliwia tworzenie, modyfikowanie i usuwanie obiektów katalogu."
+          ],
+          "values": [
+            false,
+            false,
+            true,
+            false
+          ]
+        },
+        {
+          "question": "Jakie obiekty mozna dodawac za pomoca polecenia dsadd?",
+          "answers": [
+            "Grupy",
+            "Uzytkowników",
+            "Jednostki organizacyjne",
+            "Pliki"
+          ],
+          "values": [
+            true,
+            true,
+            true,
+            false
+          ]
+        },
+        {
+          "question": "Wskaz zdania prawdziwe dotyczace usługi Active Directory:",
+          "answers": [
+            "Struktura Active Directory ma strukture drzewiasta.",
+            "Liscmi drzewa moga byc uzytkownicy, grupy i",
+            "Nie ma mozliwosci nadania okreslonemu uzytkownikowi praw do zarzadzania uzytkownikami w jednostce organizacyjnej bez nadawania (...)",
+            "Mozliwe jest kopiowanie uzytkowników."
+          ],
+          "values": [
+            true,
+            true,
+            false,
+            true
+          ]
+        },
+        {
+          "question": "Program dsget.exe:",
+          "answers": [
+            "wymaga praw administratora do działania",
+            "moze byc uruchomione w graficznym interfejsie uzytkownika za pomoca odpowiedniej opcji linii polecen.",
+            "ma tekstowy interfejs uzytkownika.",
+            "umozliwia tworzenie jednostek organizacyjnych."
+          ],
+          "values": [
+            true,
+            false,
+            true,
+            false
+          ]
+        },
+        {
+          "question": "Jakie mozliwosci daje uzycie polecenia dsadd (jako polecenie dla Active Directory)?",
+          "answers": [
+            "Nie moze dodawac obiektu typu Computer do katalogu",
+            "Nie moze dodac obiektu typu Doman Service do katalogu.",
+            "Moze dodawac obiekt typu Computer do katalogu.",
+            "Moze dodac obiekt typu Domain Service do katalogu."
+          ],
+          "values": [
+            false,
+            true,
+            true,
+            false
+          ]
+        },
+        {
+          "question": "Róznica pomiedzy zaufaniem do domen forest i external polega na:",
+          "answers": [
+            "Zaufanie typu forest pozwala na korzystanie z zasobów tylko w obrebie danego drzewa, zas external we wszystkich drzewach.",
+            "Zaufanie typu external pozwala wiekszej liczby domen na korzystanie ze swoich zasobów niz typ forest.",
+            "Zaufanie typu forest pozwala na korzystanie z zasobów tylko w obrebie drzew połaczonych tego typu zaufaniem, zas external nie musi (...)",
+            "Zaufanie typu external jest dwukierunkowe, typu forest tylko jednokierunkowe."
+          ],
+          "values": [
+            false,
+            true,
+            true,
+            false
+          ]
+        },
+        {
+          "question": "Polecenie dsquery:",
+          "answers": [
+            "Zgodnie z okreslonymi kryteriami wykonuje kwerende dotyczaca drzewa usługi DNS.",
+            "Jest równowazne poleceniu dsget.",
+            "Wykonuje kwerende na dowolnej bazie danych.",
+            "Zgodnie z okreslonymi kryteriami wykonuje kwerende dotyczaca usługi Active Directory."
+          ],
+          "values": [
+            false,
+            false,
+            false,
+            true
+          ]
+        },
+        {
+          "question": "Dodac grupe mozna za pomoca:",
+          "answers": [
+            "Konsoli ”Active directory users and computers”.",
+            "Polecenia Addgroup.",
+            "Polecenia dsadd group.",
+            "Polecenia adadd group."
+          ],
+          "values": [
+            true,
+            false,
+            true,
+            false
+          ]
+        },
+        {
+          "question": "Jakie wystepuja typy zaufania w Active Directory:",
+          "answers": [
+            "Lasu (forest)",
+            "Wewnetrzne (internal)",
+            "Zewnetrzne (external)",
+            "Płatka sniegu (snowflake)"
+          ],
+          "values": [
+            true,
+            false,
+            true,
+            false
+          ]
+        },
+        {
+          "question": "Struktura Active Directory:",
+          "answers": [
+            "Podstawowa jednostka jest tzw. lisc, który połozony jest w kontenerze w Active Directory nazywanym jednostka centralna.",
+            "Liscie i kontenery zorganizowane sa w domeny.",
+            "Domeny zorganizowane w drzewo reprezentowane sa w roznych przestrzeniach adresowych DNS.",
+            "Domena moze istniec samodzielnie, nie musi istniec w jakims drzewie i jakims lesie"
+          ],
+          "values": [
+            true,
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "question": "Polecenie dsadd moze posłuzyc do:",
+          "answers": [
+            "Modyfikowania obiektów wewnatrz AD.",
+            "Dodawania grup do AD.",
+            "Dodawania uzytkowników do AD.",
+            "Wyszukiwania informacji o obiektach AD."
+          ],
+          "values": [
+            false,
+            true,
+            true,
+            false
+          ]
+        },
+        {
+          "question": "Za pomoca konsoli Active Directory Users and Computers wykonano polecenie ”dsadd Ala -pwd Makota”. Wskaz poprawne odpowiedzi.",
+          "answers": [
+            "Jezeli uzytkownik ”Ala” nie istnieje w systemie wykonanie polecenia nie powiedzie sie.",
+            "Powodzenie operacji jest zalezne od poziomu uprawnien wykonujacego go uzytkownika.",
+            "W przypadku powodzenia operacji zostanie utworzony nowy uzytkownik o nazwie ”Ala” i hasle ”Makota”.",
+            "W przypadku powodzenia operacji hasło istniejacego uzytkownika ”Ala” zostanie zmienione na ”Makota”."
+          ],
+          "values": [
+            false,
+            true,
+            true,
+            false
+          ]
+        },
+        {
+          "question": "Za pomoca polecenia dsadd mozna:",
+          "answers": [
+            "Utworzyc grupe zabezpieczen.",
+            "Utworzyc jednostke organizacyjna.",
+            "Utworzyc konto uzytkownika.",
+            "Utworzyc grupe dystrybucyjna."
+          ],
+          "values": [
+            true,
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "question": "Czym jest Active Directory?",
+          "answers": [
+            "Narzedzie certyfikujace w Windows Server 2003.",
+            "Usługa w systemie Windows, która udostepnia srodki pozwalajace zarzadzac tozsamosciami i relacjami.",
+            "Jest to zbiór funkcji, która upraszczaja zarzadzanie uzytkownikami i komputerem.",
+            "Nakładka na system Linux pozwalajaca zarzadzac komputerem."
+          ],
+          "values": [
+            false,
+            true,
+            true,
+            false
+          ]
+        },
+        {
+          "question": "Poznane w czasach laboratorium narzedzia pozwalajace na zarzadzanie Active Directory to:",
+          "answers": [
+            "netsh",
+            "dsget",
+            "dsadd",
+            "Przystawka Active Directory Users and Computers"
+          ],
+          "values": [
+            false,
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "question": "Ile kontrolerów moze działac dla domeny w usłudze Active Directory?",
+          "answers": [
+            "wiecej niz 2",
+            "2",
+            "1",
+            "domena moze nie posiadac komputera"
+          ],
+          "values": [
+            true,
+            true,
+            true,
+            false
+          ]
+        },
+        {
+          "question": "Które z typów relacji zaufania sa dwukierunkowe?",
+          "answers": [
+            "Lasu (forest)",
+            "Zewnetrzne (external)",
+            "Obszaru (realm)",
+            "Skrótu (shortcut)"
+          ],
+          "values": [
+            true,
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "question": "Aby uruchomic na serwerze usługe Active Directory nalezy:",
+          "answers": [
+            "Utworzyc uzytkownika do zarzadzania usługa.",
+            "Zainstalowac serwer DNS.",
+            "Dodac role Active Directory Domain Services.",
+            "Zainstalowac serwer DHCP."
+          ],
+          "values": [
+            false,
+            true,
+            true,
+            false
+          ]
+        },
+        {
+          "question": "Co to jest jednostka organizacyjna (Organization Unit, OU)?",
+          "answers": [
+            "Pojedynczy komputer wchodzacy w skład domeny Active Directory.",
+            "Serwer pracujacy pod kontrola systemu Windows 2008 Server.",
+            "Kontener wykorzystywany do grupowania obiektów wewnatrz domeny w logiczne grupy, na których wykonywane sa zadania administracyjne (...)",
+            "Serwer słuzacy do zarzadzania protokołem ldap"
+          ],
+          "values": [
+            false,
+            false,
+            true,
+            false
+          ]
+        },
+        {
+          "question": "Jakie obiekty moga byc modyfikowane za pomoca usługi Active Directory Sites and Services?",
+          "answers": [
+            "Łacza lokacji i lokacje.",
+            "Tylko serwery i lokacje.",
+            "Serwery, lokacje, replikacje.",
+            "Serwery, podsieci, ustawienia usługi katalogowej (NTDS)"
+          ],
+          "values": [
+            true,
+            false,
+            false,
+            true
+          ]
+        },
+        {
+          "question": "Wskaz zdania prawdziwe:",
+          "answers": [
+            "Usługa Active Directory dostepna jest w systemach Windows od wersji Vista.",
+            "Za pomoca polecenia dsadd user mozliwe jest dodanie uzytkownika do Active Directory.",
+            "Za pomoca polecenia dsadd group mozliwe jest dodanie grupy do Active Directory.",
+            "Szablon konta uzytkownika to konto zawierajace wzorcowy zestaw najczesciej wykorzystywanych własciwosci, odpowiednich dla danej grupy uzytkowników."
+          ],
+          "values": [
+            false,
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "question": "Które polecenie umozliwia usuwanie obiektów okreslonego typu?",
+          "answers": [
+            "dsmod",
+            "csvde",
+            "dsadd",
+            "dsrm"
+          ],
+          "values": [
+            false,
+            false,
+            false,
+            true
+          ]
+        },
+        {
+          "question": "W Windows Server 2008 - Active Directory administrator edytujac własciwosci obiektu klasy Uzytkownik, w zakładce Konto ma mozliwosc:",
+          "answers": [
+            "Wyznaczenia daty i godziny, w której konto Uzytkownika zostanie usuniete z systemu.",
+            "Zablokowania Uzytkownikowi mozliwosci samodzielnej zmiany hasła.",
+            "Ustalenia godzin w których Uzytkownik bedzie mógł lub nie bedzie mógł zalogowac sie do systemu.",
+            "Okreslenia do jakich komputerów znajdujacych sie w domenie Uzytkownik ma prawo do zalogowania sie."
+          ],
+          "values": [
+            true,
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "question": "Za pomoca polecenia dsadd mozna:",
+          "answers": [
+            "Zmodyfikowac konto uzytkownika",
+            "Utworzyc jednostke organizacyjna",
+            "Utworzyc konto uzytkownika",
+            "Przeniesc jednostke organizacyjna z jednej domeny do drugiej"
+          ],
+          "values": [
+            false,
+            true,
+            true,
+            false
+          ]
+        },
+        {
+          "question": "Wskaz najwazniejsze funkcje Active directory:",
+          "answers": [
+            "Obsługa LDAP",
+            "Obsługa DNS",
+            "Obsługa zabezpieczen",
+            "Zgodnosc z TCP/IP"
+          ],
+          "values": [
+            true,
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "question": "W jednostce organizacyjnej mozna umieszczac:",
+          "answers": [
+            "Komputery",
+            "Uzytkowników",
+            "Inne jednostki organizacyjne",
+            "Obiekty z innych domen niz domena jednostki organizacyjnej"
+          ],
+          "values": [
+            true,
+            true,
+            true,
+            false
+          ]
+        },
+        {
+          "question": "Wskaz poprawne stwierdzenia na temat uprawnien w Active Directory:",
+          "answers": [
+            "Uprawnienia nie moga byc dziedziczone",
+            "Istnieje mozliwosc nadania uprawnien administratora na danym komputerze bez posiadania uprawnien administratora w domenie",
+            "Aby skopiowac uzytkownika, jego konto musi byc uprzednio wyłaczone",
+            "Uzytkownik moze nalezec do wielu grup"
+          ],
+          "values": [
+            true,
+            false,
+            true,
+            false
+          ]
+        },
+        {
+          "question": "Jakie protokoły sa wykorzystywane przez Active Directory?",
+          "answers": [
+            "SSH",
+            "LDAP",
+            "Kerberos",
+            "DNS"
+          ],
+          "values": [
+            false,
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "question": "Do czego słuzy polecenie dsadd?",
+          "answers": [
+            "Dodaje mozliwosc zdalnego dostepu do elementu serwisu Active Directory",
+            "Dodaje atrybut do elementu serwisu Active Directory",
+            "Dodaje połaczenie do zarzadzania elementem serwisu Active Directory",
+            "Dodanie okreslony typ elementu do serwisu Active Directory"
+          ],
+          "values": [
+            false,
+            false,
+            false,
+            true
+          ]
+        },
+        {
+          "question": "Wskaz prawdziwe zdania dotyczace jednostek organizacyjnych (Organizational Units):",
+          "answers": [
+            "Moga tworzyc strukture hierarchiczna",
+            "Grupuja wyłacznie uzytkowników",
+            "Moga byc wykorzystane do delegowania uprawnien administracyjnych",
+            "Nie moga byc w sobie zagniezdzane"
+          ],
+          "values": [
+            true,
+            false,
+            true,
+            false
+          ]
+        },
+        {
+          "question": "Za pomoca konsoli Active Directory Users and Computers wykonano polecenie: „dsmod group Alfa -addmbr Beta”. Wskaz wszystkie poprawne odpowiedzi.:",
+          "answers": [
+            "W przypadku powodzenia operacji do grupy Beta zostanie dodany obiekt Alfa.",
+            "W przypadku powodzenia operacji do grupy Alfa zostanie dodany obiekt Beta.",
+            "Powodzenie operacji jest zalezne od poziomu uprawnien wykonujacego go uzytkownika.",
+            "Obiekt o nazwie Beta moze reprezentowac uzytkownika."
+          ],
+          "values": [
+            false,
+            true,
+            true,
+            true
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DSO - Windows - Instalacja",
+      "questions": [
+        {
+          "question": "Windows Deployment Services (WDS):",
+          "answers": [
+            "Pozwala na przygotowanie obrazów dysków do zautomatyzowania lokalnej instalacji systemu Windows.",
+            "Pozwala na instalacje systemu Window.",
+            "Mozliwe jest instalowanie przez siec wyłacznie systemów serwerowych np. Windows Server 2008.",
+            "Mozliwa jest zdalna instalacja (przez siec) systemu Linux wykorzystujac system Windows Server."
+          ],
+          "values": [
+            false,
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "question": "Windows Deployment Services wykorzystuje obrazy z rozszerzeniem:",
+          "answers": [
+            "BIN",
+            "MDF",
+            "WIM",
+            "ISO"
+          ],
+          "values": [
+            false,
+            false,
+            true,
+            false
+          ]
+        },
+        {
+          "question": "Format obrazów instalacyjnych wykorzystywany przez Windows Deployment Services to:",
+          "answers": [
+            "VHD",
+            "ISO",
+            "IMG",
+            "WIM"
+          ],
+          "values": [
+            false,
+            false,
+            false,
+            true
+          ]
+        },
+        {
+          "question": "Windows Deployment Services to:",
+          "answers": [
+            "Tworzenie instalatorów dla programów na platforme .NET",
+            "Instalacje systemu Windows poprzez nosnik USB.",
+            "Usługa pozwalajaca na instalacje systemu Windows przez siec.",
+            "Instalacje i konfiguracje aplikacji internetowej na serwerze IS."
+          ],
+          "values": [
+            false,
+            false,
+            true,
+            false
+          ]
+        },
+        {
+          "question": "Windows Deployment Services (WDS) to technologia serwerowa, która pozwala na:",
+          "answers": [
+            "Zdalne logowanie do systemu.",
+            "Sieciowa instalacje systemu operacyjnego.",
+            "Instalacje systemu operacyjnego bez płyty instalacyjnej typu CD lub DVD.",
+            "Lokalne monitorowanie systemu operacyjnego chroniac przed złosliwym oprogramowaniem."
+          ],
+          "values": [
+            false,
+            true,
+            true,
+            false
+          ]
+        },
+        {
+          "question": "Windows Deployment Services to:",
+          "answers": [
+            "Tworzenie instalatorów dla programów na platforme .NET",
+            "Instalacje systemu Windows poprzez nosnik USB.",
+            "Usługa pozwalajaca na instalacje systemu Windows przez siec.",
+            "Instalacje i konfiguracje aplikacji internetowej na serwerze IS."
+          ],
+          "values": [
+            false,
+            false,
+            true,
+            false
+          ]
+        },
+        {
+          "question": "Aby mozliwa była zdalna istalacja, to maszyna kliencka moze uruchamiac sie z:",
+          "answers": [
+            "dysku twardego",
+            "karty sieciowej",
+            "napedu CD / DVD",
+            "nie ma to znaczenia"
+          ],
+          "values": [
+            false,
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "question": "Jakie elementy sa wymagane do poprawnej pracy WDS?",
+          "answers": [
+            "Windows Server w wersji 2008 lub wyzszej.",
+            "Usługa Windows Deployment Services zainstalowana na serwerze udostepniajacym obrazy do instalacji.",
+            "Sprzet sieciowy obsługujacy protokół WDS (router, switch, karta sieciowa)",
+            "Kontroler domeny, serwer DNS, serwer DHCP"
+          ],
+          "values": [
+            false,
+            true,
+            false,
+            true
+          ]
+        },
+        {
+          "question": "Które z ponizszych zdan na temat wymagan instalacji zdalnej jest prawdziwe?",
+          "answers": [
+            "Serwer WDS musi byc członkiem domeny Active Directory.",
+            "W sieci musi znajdowac sie serwer DNS.",
+            "W sieci musi znajdowac sie serwer DHCP.",
+            "Serwery DHCP i DNS musza byc niezalezne od serwera WDS."
+          ],
+          "values": [
+            true,
+            true,
+            true,
+            false
+          ]
+        },
+        {
+          "question": "Wykorzystujac zdalna instalacje systemu Windows:",
+          "answers": [
+            "Jeden serwer umozliwia instalacje wielu wersji systemu (uzytkownik moze sam wybrac).",
+            "Jeden serwer pozwala na instalacje tylko jednej wersji systemu (np. Ultimate)",
+            "Pliki z obrazem systemu musza byc dostepne na serwerze.",
+            "Do komputera na którym instalowany jest system trzeba włozyc płyte z obrazem systemu (ale konfiguracja instalowanego systemu jest pobierana przez siec)"
+          ],
+          "values": [
+            true,
+            false,
+            true,
+            false
+          ]
+        },
+        {
+          "question": "Jakie warunki musza byc spełnione by mozna było pomyslnie zainstalowac usługe WDS?",
+          "answers": [
+            "Siec musi byc połaczona z Internetem.",
+            "Komputer musi byc członkiem domeny Active Directory.",
+            "W sieci musi znajdowac sie serwer DNS.",
+            "W sieci musi znajdowac sie serwer DHCP."
+          ],
+          "values": [
+            false,
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "question": "Aby mozliwe było wykorzystanie Windows Deployment Services konieczny jest:",
+          "answers": [
+            "Serwer DHCP wskazujacy lokalizacje pliku uruchomieniowego.",
+            "Serwer FTP z którego beda pobierane pliki instalacyjne.",
+            "Obraz instalacyjny z systemem Windows 7 w edycji co najmniej Professional.",
+            "Obraz srodowiska Windows PE."
+          ],
+          "values": [
+            true,
+            false,
+            false,
+            true
+          ]
+        },
+        {
+          "question": "Mechanizm WDS umozliwia:",
+          "answers": [
+            "Zdalna instalacje systemów z obrazów płyt .iso",
+            "Zdalna instalacje systemów Windows.",
+            "Zdalne zarzadzanie zainstalowanymi systemami Windows.",
+            "Zdalna instalacje systemów z obrazów płyt .wim"
+          ],
+          "values": [
+            false,
+            true,
+            false,
+            true
+          ]
+        },
+        {
+          "question": "Wskaz poprawne zdania dotyczace WDS:",
+          "answers": [
+            "Proces instalacji systemu na komputerze klienckim rozpoczyna sie od przesłania po sieci obrazu bardzo uproszczonego systemu operacyjnego słuzacego do uruchomienia głównego instalatora.",
+            "Serwer w momencie instalowania usługi WDS automatycznie instaluje obrazy płyt uzywane do instalacji systemu po sieci.",
+            "Aby zainstalowac na komputerze klienckim system Windows, uzywajac mechanizmu WDS, nalezy ustawic w BIOSie bootowanie rozpoczynajace sie od karty sieciowej.",
+            "Uzywajac WDS mozemy instalowac po sieci kazdy system z rodziny Microsoft Windows i Linux."
+          ],
+          "values": [
+            true,
+            false,
+            true,
+            false
+          ]
+        },
+        {
+          "question": "Wskaz poprawne zdania dotyczace WDS:",
+          "answers": [
+            "Serwer w momencie instalowania usługi WDS automatycznie instaluje obrazy płyt uzywane to instalacji systemu po sieci.",
+            "Proces instalacji systemu na komputerze klienckim rozpoczyna sie od przesłania po sieci obrazu bardzo uproszczonego systemu operacyjnego słuzacego do uruchomienia głównego instalatora.",
+            "Uzywajac WDS mozemy instalowac po sieci kazdy system z rodziny Microsoft Windows i Linux.",
+            "Aby zainstalowac na komputerze klienckim system windows uzywajac mechanizmu WDS nalezy ustawic w biosie boot’owanie rozpoczynajace sie od karty sieciowej."
+          ],
+          "values": [
+            false,
+            true,
+            false,
+            true
+          ]
+        },
+        {
+          "question": "Serwer DHCP w systemie windows 2008 server:",
+          "answers": [
+            "jest zainstalowany w systemie po instalacji",
+            "jest dostępny w systemie jako rola",
+            "umożliwia tworzenie zakresu adresów, z których mają być przydzielane adresy klientom",
+            "jest w całości zarządzany tylko przy pomocy konsolowego narzędzia"
+          ],
+          "values": [
+            false,
+            true,
+            true,
+            false
+          ]
+        },
+        {
+          "question": "Serwer DNS umożliwia:",
+          "answers": [
+            "dynamiczne przydzielanie adresów IP komputerom w sieci lokalnej",
+            "tłumaczenie adresów domenowych na adresy MAC",
+            "tłumaczenie adresów IP na adresy MAC",
+            "tłumaczenie adresów domenowych na adresy IP"
+          ],
+          "values": [
+            false,
+            false,
+            false,
+            true
+          ]
+        },
+        {
+          "question": "Serwer DHCP umożliwia:",
+          "answers": [
+            "Automatyczną aktualizację adresu serwera DNS",
+            "Zamianę tekstowego adresu URL na adres IP",
+            "Dynamiczne przyznawanie adresu IP hostom",
+            "Dynamiczne nadawanie adresu MAC hostom"
+          ],
+          "values": [
+            true,
+            false,
+            true,
+            false
+          ]
+        },
+        {
+          "question": "Za pomocą polecenia nslookup w systemie Windows możemy uzyskad informacje o:",
+          "answers": [
+            "Adresie IP serwera",
+            "Aliasach serwera",
+            "Lokalizacji geograficznej serwera",
+            "Czasu odpowiedzi serwera"
+          ],
+          "values": [
+            true,
+            true,
+            false,
+            false
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DSO - Windows - Power Shell",
+      "questions": [
+        {
+          "question": "Polecenie> get-childitem C:ntestn* -include *.txt -recurse | remove-item",
+          "answers": [
+            "Znajduje i usuwa wszystkie pliki z rozszerzeniem .txt z folderu \"C:\test\" i podfolderów.",
+            "Znajduje i usuwa wszystkie pliki z rozszerzeniem .txt z folderu \"C:\test\", bez podfolderów.",
+            "Znajduje i wypisuje wszystkie pliki z rozszerzeniem .txt z folderu \"C:\test\", bez podfolderów.",
+            "Jest niepoprawne"
+          ],
+          "values": [
+            true,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "question": "Które wersje systemu Windows NIE wpierają PowerShella?",
+          "answers": [
+            "Windows 2000 SP4",
+            "Windows 2000",
+            "Windows Server 2008",
+            "Windows 7"
+          ],
+          "values": [
+            true,
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "question": "Które polityki wykonywania skryptów w PowerShell zabraniają wykonywania skryptów pochodzących z lokalnego komputera, jeśli skrypty te nie są podpisane przez zaufanego wydawcę?",
+          "answers": [
+            "Restricted",
+            "AllSigned",
+            "RemoteSigned",
+            "Unrestricted"
+          ],
+          "values": [
+            true,
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "question": "Po wykonaniu poniższego skryptu w PowerShell: przedmiot = 'DSO' if ($przedmiot -eq 'DSO') {'Dedykowane Systemy Operacyjne'} elseif ($przedmiot -eq 'PK') {'Programowanie Komputerów'} else {'Nieznany przedmiot'}",
+          "answers": [
+            "Na ekranie zostanie wyświetlony napis \"Nieznany przedmiot\".",
+            "Wartość zmiennej $przedmiot nie ulegnie zmianie.",
+            "Na ekranie pojawi się komunikat o błędzie składniowym.",
+            "Do zmiennej $przedmiot zostanie przypisana wartość \"Dedykowane Systemy Operacyjne\"."
+          ],
+          "values": [
+            false,
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "question": "Aby zwrócić wszystkie obiekty w bieżącej lokalizacji nalezy użyć polecenia:",
+          "answers": [
+            "Get-children",
+            "Copy-item",
+            "Get-content",
+            "Get-process"
+          ],
+          "values": [
+            true,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "question": "Polecenie \"PS> get-process d* | stop-process\"",
+          "answers": [
+            "poszczególne polecenia należą do tzw. poleceń Cmdlet. (należy do poleceń Cmdlet - inna odpowiedź) ",
+            "zatrzymuje wszystkie uruchomione procesy.",
+            "zatrzymuje wszystkie procesy działające na partycji D.",
+            "zatrzymuje wszystkie procesy których nazwa rozpoczyna się literą \"d\"."
+          ],
+          "values": [
+            false,
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "question": "Zaznacz poprawne przyporządkowania aliasów do Cmdletów",
+          "answers": [
+            "taskkill -> Kill-Process",
+            "ls -> Get-ChildItem",
+            "help -> Get-Help",
+            "man -> Get-Help"
+          ],
+          "values": [
+            false,
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "question": "Polecenie Get-EventLog w Windows PowerShell pozwala:",
+          "answers": [
+            "Zapisywać informacje do dziennika zdarzeń.",
+            "Takie polecenie nie istnieje.",
+            "Pobierać wpisy z dziennika zdarzeń.",
+            "Pobierać wpisy z pliku C:\\Var\\Log\\Messages."
+          ],
+          "values": [
+            false,
+            false,
+            true,
+            false
+          ]
+        },
+        {
+          "question": "Polecenia natywne dla Windows PowerShell, które pozwalają na wykonywanie podstawowych operacji na obiektach w środowisku WPS to:",
+          "answers": [
+            "Potoki (pipelines)",
+            "Aplety poleceń (cmdlets)",
+            "Aplety skryptowe (scriptlets)",
+            "Komendy linii poleceń (line commands)"
+          ],
+          "values": [
+            false,
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "question": "Wskaż wszystkie poprawne zdania dotyczące interpretera Windows PowerShell:",
+          "answers": [
+            "PowerShell jest oparty o .NET",
+            "PowerShell nie udostępnia mechanizmów potoku.",
+            "PowerShell pozwala ustawić różne polityki kontrolujące jakie skrypty można uruchomić.",
+            "PowerShell jest kompatybilny z bashem."
+          ],
+          "values": [
+            true,
+            false,
+            true,
+            false
+          ]
+        },
+        {
+          "question": "Polityka Restricted wykonywania plików:",
+          "answers": [
+            "Jest domyślną polityką w środowisku PowerShell.",
+            "Pozwala na uruchamianie skryptów z rozszerzeniem .ps1.",
+            "Nie pozwala na wykonywanie komend w oknie interpretera.",
+            "Pozwala na uruchamianie skryptów z rozszerzeniem .ps1xml."
+          ],
+          "values": [
+            true,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "question": "Które polecenie wypisze zawartość bieżącego katalogu z pominięciem plików o rozszerzeniu .exe?",
+          "answers": [
+            "Dir *.exe",
+            "gci -exclude *.exe",
+            "Get-Childitem -exclude *.exe",
+            "ls -include *.exe"
+          ],
+          "values": [
+            false,
+            true,
+            true,
+            false
+          ]
+        },
+        {
+          "question": "Wskaż poprawne polecenia PowerShell usuwające z bieżącego katalogu pliki większe niż 2kB:",
+          "answers": [
+            "Get-Childitem |  Where-Object ( $_.length > 2kB ) | Remove-Item",
+            "Get-Childitem | Remove-Item | Where ( $_.length > 2kB )",
+            "Get-Childitem | Where-Object ( $_.length -gt 2kB ) | Remove-Item",
+            "ls | where-object { $_.length -gt 2kB } | rm"
+          ],
+          "values": [
+            false,
+            false,
+            true,
+            true
+          ]
+        },
+        {
+          "question": "Polecenie \"PS> get-process | where-object { $_.WS -gt 300MB } | stop-process\" wydane w interpreterze Windows PowerShell:",
+          "answers": [
+            "Listuje procesy, które zużywają więcej niż 300 MB.",
+            "Szuka procesu, który zużywa więcej niż 300 MB i wyświetla nazwę.",
+            "Szuka procesu, który zużywa więcej niż 300 MB i zatrzymuje go.",
+            "Szuka procesu, który zużywa mniej niż 300 MB i zatrzymuje go."
+          ],
+          "values": [
+            false,
+            false,
+            true,
+            false
+          ]
+        },
+        {
+          "question": "Która z wersji systemu Windows obsługuje interpreter PowerShell?",
+          "answers": [
+            "Windows Vista",
+            "Windows 7",
+            "Windows XP SP2/SP3",
+            "Windows 95"
+          ],
+          "values": [
+            true,
+            true,
+            true,
+            false
+          ]
+        },
+        {
+          "question": "Polecenie Set-Location w Cmdlets (PowerShell) ma swój odpowiednik w interpreterze komend cmd.exe. Jest to:",
+          "answers": [
+            "chdir",
+            "set",
+            "sloc",
+            "cd"
+          ],
+          "values": [
+            true,
+            false,
+            false,
+            true
+          ]
+        },
+        {
+          "question": "Które z poleceń są poprawnymi podstawowymi aliasami w Windows PowerShell, służącymi do czyszczenia ekranu?\textsl{}",
+          "answers": [
+            "Clear-Console",
+            "Clear-Host",
+            "clear",
+            "cls"
+          ],
+          "values": [
+            false,
+            false,
+            true,
+            true
+          ]
+        },
+        {
+          "question": "W celu zatrzymania procesów zużywających więcej niż 100MB pamięci RAM należy użyć polecenia:",
+          "answers": [
+            "PS> stop-process | where-object { $_.WS -gt 100MB }",
+            "PS> stop-process $Memory -gt 100MB",
+            "PS> get-process | where-object { $Memory -gt 100MB } | stop-process",
+            "PS> get-process | where-object { $_.WS -gt 100MB } | stop-process}"
+          ],
+          "values": [
+            true,
+            false,
+            true,
+            false
+          ]
+        },
+        {
+          "question": "Zaznacz poprawne zdania dotyczące powłoski PowerShell:",
+          "answers": [
+            "Wszystkie zmienne są obiektami .NET.",
+            "Do zmiennych odwołuje się używając znaku $.",
+            "Część zmiennych jest obiektami .NET.",
+            "Do zmiennych odwołuje się używając znaku #."
+          ],
+          "values": [
+            true,
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "question": "Za pomocą polecenia: Get-Childitem C:\\Work\\ -Recurse -Force | Measure-Object -property length -sum (Komentarz: polecenie measure-object służy do generowania statystyk)",
+          "answers": [
+            "Znajdziemy liczbę plików i ich całkowity rozmiar w folderze C:\\Work oraz w podfolderach.",
+            "Wypiszemy zawartość folderu C:\\Work.",
+            "Wypiszemy największy plik z folderu C:\\Work.",
+            "Jest to niepoprawna składnia."
+          ],
+          "values": [
+            true,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "question": "Aby usunąć wszystkie pliki z katalogu c:\\temp\\o rozszerzeniu .xls w Windows PowerShell należy użyć polecenia:",
+          "answers": [
+            "remove-item c:\\temp\\*.xls",
+            "get-childitem c:\\temp\\*.xls | foreach-object { remove-item $_.fullname }",
+            "remove-item c:\\temp\\* -exclude *.xls",
+            "remove-file c:\\temp\\* -extension xls}"
+          ],
+          "values": [
+            true,
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "question": "Polecenie: PS> get-childitem C:\\test\\* -include *.txt -recurse | remove-item ",
+          "answers": [
+            "Znajduje i usuwa wszystkie pliki z rozszerzeniem .txt z folderu \"C:\\test\" i podfolderów",
+            "Znajduje i usuwa wszystkie pliki z rozszerzeniem .txt z folderu \"C:\\test\", bez podfolderów",
+            "Znajduje i wypisuje wszystkie pliki z rozszerzeniem .txt z folderu \"C:\\test\", bez podfolderów",
+            "Jest niepoprawne."
+          ],
+          "values": [
+            true,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "question": "Jakie rozszerzenia mogą mieć skrypty PowerShell?",
+          "answers": [
+            ".wps",
+            ".shl",
+            ".cmd",
+            ".ps1"
+          ],
+          "values": [
+            false,
+            false,
+            false,
+            true
+          ]
+        },
+        {
+          "question": "Której z niżej wymienionych polityk uruchamiania skryptów są dostępne w powerShell systemu Windows?",
+          "answers": [
+            "NoneAllowed - nie pozwala na uruchamianie żadnych skryptów.",
+            "AllSigned - możliwość uruchomienia tylko podpisanych skryptów.",
+            "RemoteSigned - możliwość uruchamiania skryptów lokalnych oraz podpisanych pochodzących z Internetu.",
+            "Unrestricted - pozwala na uruchamianie wszystkich skryptów."
+          ],
+          "values": [
+            false,
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "question": "Czym charakteryzują się komendy (tzw. cmdlety) w PowerShell?",
+          "answers": [
+            "Zazwyczaj zwracają obiekty.",
+            "Nie mogą mieć zdefiniowanych kilku aliasów jednocześnie.",
+            "Mają nazwy postaci \"rzeczownik-czasownik\"",
+            "Mają nazwy postaci \"czasownik-rzeczownik\""
+          ],
+          "values": [
+            true,
+            false,
+            false,
+            true
+          ]
+        },
+        {
+          "question": "Aby uzyskać pomoc na temat poleceń w Windows PowerShell należy użyć polecenia:",
+          "answers": [
+            "please",
+            "help",
+            "Oh genie",
+            "Get-Help"
+          ],
+          "values": [
+            false,
+            true,
+            false,
+            true
+          ]
+        },
+        {
+          "question": "Aby sprawdzić czy jakiś katalog już istnieje w Windows PowerShell można skorzystac z poleceń:",
+          "answers": [
+            "remove-item",
+            "test-path",
+            "path",
+            "new-item"
+          ],
+          "values": [
+            false,
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "question": "Wskaż wszystkie prawdziwe zdania dotyczące interpretera Windows PowerShell:",
+          "answers": [
+            "Polecenie ls jest aliasem polecenia Get-Children.",
+            "PowerShell nie posiada modułów i przystawek pozwalających na rozszerzanie powłoki poprzez dodawanie nowych cmdletów.",
+            "W systemie operacyjnym Windows XP SP2 domyślnie zainstalowaną wersją PowerShella jest wersja \"PowerShell v2\"",
+            "PowerShell pozwala na przetwarzanie potokowe, które pozwala na przekazywanie obiektu z jednego cmdletu do drugiego, bez potrzeby korzystania z parsowania tekstu czy zmiany formatowania."
+          ],
+          "values": [
+            true,
+            false,
+            false,
+            true
+          ]
+        },
+        {
+          "question": "Polecenie: \"new-item c:\\temp\test -type directory\" spowoduje:",
+          "answers": [
+            "Utworzenie katalogu directory w katalogu c:\\temp\\test",
+            "Sprawdzi istnienie katalogu test w katalogu c:\\temp",
+            "Utworzenie katalogu test w katalogu c:\\temp",
+            "Sprawdzi czy \"test\" w katalogu c:\\temp jest katalogiem"
+          ],
+          "values": [
+            false,
+            false,
+            true,
+            false
+          ]
+        },
+        {
+          "question": "Które wersje systemu Windows NIE wspierają PowerShella?",
+          "answers": [
+            "Windows Vista",
+            "Windows 2000",
+            "Windows XP SP2",
+            "Windows 7"
+          ],
+          "values": [
+            false,
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "question": "Które wersje systemu Windows NIE wspierają PowerShella?",
+          "answers": [
+            "Windows 2000",
+            "Windows 2000 SP4",
+            "Windows Server 2008",
+            "Windows 7"
+          ],
+          "values": [
+            true,
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "question": "Wskaż wszystkie prawdziwe zdania dotyczące interpretera Windows PowerShell:",
+          "answers": [
+            "Wszystkie zmienne są obiektami .NET.",
+            "Aby skopiować plik należy wpisać polecenie \"Copy-item lokalizacja1 lokalizacja2\"",
+            "Aby skopiować plik należy wpisać polecenie \"Set-Location lokalizacja1 lokalizacja2\"",
+            "PowerShell jest elementem pakietu Windows Management Framework."
+          ],
+          "values": [
+            true,
+            true,
+            false,
+            true
+          ]
+        },
+        {
+          "question": "W Windows PowerShell poprawnie stworzona pętla to:",
+          "answers": [
+            " $a = 1 do { $a; $a++ } while ($a -lt 10) ",
+            " $a = 10 do { $a; $a$ -- $ } while ($a -lt 3) ",
+            " for ($a = 1; $a -le 10; $a++) { $a } ",
+            " foreach ( $i in get-child c:\\scripts ) {$i.extended} "
+          ],
+          "values": [
+            true,
+            false,
+            true,
+            false
+          ]
+        },
+        {
+          "question": "Co należy wstawić w miejsce znaków zapytania, aby poniższy skrypt PowerShella wyświetlał nazwę procesu w danej chwili najbardziej obciążającego procesor? $ps = get-process  $max = $ps[0]  foreach ($p in $ps )  {  if ( ??? )  { $max = $p } } $max.processname",
+          "answers": [
+            " $p > $max ",
+            " $p.cpu -gt $max.cpu ",
+            "Brak odpowiedzi w źródle.",
+            "Brak odpowiedzi w źródle."
+          ],
+          "values": [
+            false,
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "question": "Aby wyświetlić wszystkie pliki o rozszerzeniu .txt znajdujące się w obecnym katalogu można użyć polecenia:",
+          "answers": [
+            "Get-ChildItem *.* -include *.txt",
+            "Get-ChildItem -extension *.txt",
+            "Get-ChildItem -exclude *.txt",
+            "Get-ChildItem | Where-Object {$_.Attributes -ne \"Directory\" -and $_.Extension -eq \".txt\"}"
+          ],
+          "values": [
+            true,
+            false,
+            false,
+            true
+          ]
+        },
+        {
+          "question": "Zaznacz prawidłowe komendy ustawiające aktualną lokalizację na „C:\\”:",
+          "answers": [
+            "Set-Location c:\\ ",
+            "chdir c:\\ ",
+            "cd c\\ ",
+            "goto c:\\ "
+          ],
+          "values": [
+            true,
+            true,
+            true,
+            false
+          ]
+        },
+        {
+          "question": "Zaznacz wszystkie prawidłowe odpowiedzi opisujące Windows PowerShell (WPS):",
+          "answers": [
+            "WPS to narzędzie open source do zarządzania systemami Windows spod konsoli linuxowej",
+            "WPS zapewnia dostęp do obiektów COM",
+            "WPS to środowisko oparte na platformie .NET",
+            "WPS to środowisko do automatyzowania zadań administracyjnych przy użyciu skryptów"
+          ],
+          "values": [
+            false,
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "question": "Polecenie dir -exclude *.zip -name -recurse -force",
+          "answers": [
+            "Wyświetli nazwy wszystkich plików znajdujących się w danym katalogu, wraz z plikami ze wszystkich podfolderów i ich podfolderów, wraz z plikami ukrytymi i bez dostępu do nich, bez plików z rozszerzeniem zip",
+            "Wyświetli nazwy wszystkich plików, z pominięciem plików z rozszerzeniem zip, znajdujących się tylko w danym katalogu, wraz z plikami ukrytymi i bez dostępu do nich.",
+            "Wyświetli nazwy wszystkich plików znajdujących się tylko w danym katalogu, wraz z plikami ukrytymi i bez dostępu do nich.",
+            "Wyświetli nazwy wszystkich plików z rozszerzeniem zip znajdujących się w danym katalogu, wraz ze wszystkimi podfolderami, wraz z plikami ukrytymi i bez dostępu do nich."
+          ],
+          "values": [
+            true,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "question": "Wskaż polecenia działające w powłoce bash oraz powershell",
+          "answers": [
+            "man",
+            "cp",
+            "cd",
+            "gps"
+          ],
+          "values": [
+            true,
+            true,
+            true,
+            false
+          ]
+        },
+        {
+          "question": "Zmienne w interpreterze PowerShell:",
+          "answers": [
+            "nie muszą być deklarowane",
+            "wymagają określenia typu",
+            "mogą mieć różne typy",
+            "są obiektami .NET"
+          ],
+          "values": [
+            true,
+            false,
+            true,
+            true
+          ]
+        },
+        {
+          "question": "Polecenie PoweShell: „PS> get-process a* | stop-process”",
+          "answers": [
+            "Dotyczy wszystkich procesów (a* = all)",
+            "Jest poleceniem błędnym – nie wykona się",
+            "Zatrzyma procesy, których lista jest pobierana za pomocą polecenia get-process a*",
+            "Dotyczy tylko procesów, których nazwa zaczyna się na literę „a”"
+          ],
+          "values": [
+            false,
+            false,
+            true,
+            true
+          ]
+        },
+        {
+          "question": "W interpreterze PowerShell polecenie Get-Process:",
+          "answers": [
+            "Pozwala wypisać wszystkie aktualnie uruchomione procesy",
+            "Pozwala zmieniać priorytet procesu",
+            "Pozwala zmieniać właściciela procesu na aktualnie zalogowanego użytkownika",
+            "Przekierowywuje wynik działania procesu (standardowe wyjście) do pliku"
+          ],
+          "values": [
+            true,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "question": "Interpreter Windows PowerShell:",
+          "answers": [
+            "w systemie Windows 7 (lub Windows Server 2008) wymaga wcześniejszej instalacji",
+            "Jest zintegrowany z .NET Framework",
+            "Dostarcza środowisko do wykonywania zadań administracyjnych wykonywanych poleceniami cmdlets",
+            "Wynikiem polecenia w interpreterze jest ciąg obiektów określonego typu"
+          ],
+          "values": [
+            false,
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "question": "Zanzacz wszystkie prawidłowe sformułowania dotyczące powłoki PowerShell:",
+          "answers": [
+            "Dzięki operatorowi | (tzw. pipe) można przekierować wyjście jednego polecenia na wejście drugiego, np. get-process | stop-process",
+            "Wszystkie zmienne są obiektami .NET",
+            "Skrypty pisane dla linuksowego interpretera Bash mogą być uruchamiane w interpreterze PowerShell",
+            "Polecenia PowerShell mają ściśle określone nazwy, do których nie można tworzyć aliasów."
+          ],
+          "values": [
+            true,
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "question": "Które z poniższych par słów przedstawiają pewien cmdlet oraz jego alias w Windows PowerShell?",
+          "answers": [
+            "Set-Location, cd",
+            "Get-Help, man",
+            "Remove-File, rm",
+            "Remove-Item, del"
+          ],
+          "values": [
+            true,
+            true,
+            false,
+            true
+          ]
+        },
+        {
+          "question": "Liczby od 1 do 5 wypisze następujący skrypt:",
+          "answers": [
+            "$i = 1 do { Write-Host $i $i++ } while ($i -le 5)",
+            "$i = 1 do { echo $i $i++ } while ($i -le 5)",
+            "$i = 1 do { echo i i++ } while ($i -le 5)",
+            "$i = 1 do { print $i i++ } while ($i -le 5)"
+          ],
+          "values": [
+            true,
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "question": "Które polecenia są poprawne i wyświetlają, posortowaną wg. pewnej kolumny, zawartośd bieżącego katalogu?",
+          "answers": [
+            "ls | Sort-Object name",
+            "ls | Sort-name",
+            "ls | Sort-Object Length",
+            "ls | Sort(Length)"
+          ],
+          "values": [
+            true,
+            false,
+            true,
+            false
+          ]
+        },
+        {
+          "question": "Polecenie: \"get-childitem C:\\* -include *.txt\" wydane w Windows PowerShell:",
+          "answers": [
+            "wyświetli nazwy wszystkich plików o rozszerzeniu \".txt\" znajdujących się w ścieżce C:\\ ",
+            "wyświetli nazwy wszystkich plików o rozszerzeniu \".txt\" znajdujących się w ścieżce C:\\i jej podkatalogach",
+            "wyświetli tylko nazwy wszystkich plików o rozszerzeniu \".txt\" znajdujących się w ścieżce C:\\ ",
+            "wyświetli m.in. nazwę i czas ostatniego czas ostatniego zapisu wszystkich plików o rozszerzeniu \".txt\" znajdujących się w ścieżce C:\\ "
+          ],
+          "values": [
+            true,
+            false,
+            false,
+            true
+          ]
+        },
+        {
+          "question": "Która z wersji systemu Windows obsługuje interpreter Windows PowerShell?",
+          "answers": [
+            "Windows 98",
+            "Windows XP",
+            "Windows Vista",
+            "Windows 7"
+          ],
+          "values": [
+            false,
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "question": "PS E:\test> ls  Directory: E:\\test  Mode   LastWriteTime Length name  $ ----\\;\\;\\;\\;\\;\\;-------------\\;\\;\\;------\\;\\;\\;---- $  $ -a--- $  2012-06-02    16:12  0 a.xyz  $ -a--- $  2012-06-02    16:12  0 b.xyz  $ -a--- $  2012-06-02    16:12  0 c.xyz  $ -a--- $  2012-06-02    16:12  0 d.xyy  $ -a--- $  2012-06-02    16:12  0 e.xxy  PS E:\\test> get-childitem C:\\test\\* -include *.xyz -recurse | remove-item  Zaznacz możliwe do otrzymania wyniki działania komendy ls z dowolnymi parametrami po wykonaniu powyższej komendy: ",
+          "answers": [
+            "Directory: E:\\test  Mode  LastWriteTime Length name  ----  ------------- ------ ---- -a--- 2012-06-02    16:12  0 d.xyy -a--- 2012-06-02    16:12  0 e.xyy",
+            "Directory: E:\\test  Mode  LastWriteTime Length name  ----  ------------- ------ ---- -a--- 2012-06-02    16:12  0 e.xxy",
+            "d.xyy e.xxy  PS E:\\test>",
+            "Directory: E:\\test"
+          ],
+          "values": [
+            true,
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "question": "Zdania prawdziwe, opisujące zmienne PowerShell, to:",
+          "answers": [
+            "Zmienne muszą mieć zdefiniowany typ",
+            "Wszystkie zmienne są obiektami .NET",
+            "Nie muszą być deklarowane",
+            "Wszystkie zmienne są globalne"
+          ],
+          "values": [
+            false,
+            true,
+            true,
+            false
+          ]
+        },
+        {
+          "question": "Które z podanych przykładów pętli są poprawne w PowerShell?",
+          "answers": [
+            "foreach ($i in get-childitem c:\\scripts) {$i.extension}",
+            "for($zm = 1; $zm -le 10; $zm++) {$zm}",
+            "for(a = 1; i < 10; ++i) {i}",
+            "while($i -lt 10) {$i}"
+          ],
+          "values": [
+            true,
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "question": "Które z przytoczonych niżej cech odnoszą się do powłoki PowerShell?",
+          "answers": [
+            "Korzystanie z pętli for, while i until jest niedozwolone.",
+            "Odwoływanie się do zmiennych jest możliwa poprzez użycie znaku $",
+            "Zmienne nie mogą mieć zakresów widoczności",
+            "Wszystkie zmienne są obiektami .NET"
+          ],
+          "values": [
+            false,
+            true,
+            false,
+            true
+          ]
+        },
+        {
+          "question": "Które polecenie powłoki PowerShell wyświetli listę uruchomionych usług?",
+          "answers": [
+            "Get-Service | Where-Object {$_.name -eq \"running\"}",
+            "Get-Service | Where-Object {$_.name -eq \"SysMain\"}",
+            "Get-Service | Where-Object {$_.name -eq \"stopped\"}",
+            "Get-Process | Where-Object {$_.name -eq \"running\"}"
+          ],
+          "values": [
+            true,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "question": "Aliasami polecenia Set-Location w Windows Powershell są:",
+          "answers": [
+            "sl",
+            "cd",
+            "chdir",
+            "setloc"
+          ],
+          "values": [
+            true,
+            true,
+            true,
+            false
+          ]
+        },
+        {
+          "question": "$a = 5 If ($a -eq 5) {”Piątka ”} elseif ($a -lt 6) {”mniejsza od szóstki”} If ($a -gt 3) {”większa od trójki”} Po wykonaniu tego kodu w oknie Windows Powershell:",
+          "answers": [
+            "Zostanie wypisany tekst „Piątka mniejsza od szóstki”",
+            "Zostanie wypisany tekst „Piątka mniejsza od szóstki większa od trójki”",
+            "Zostanie wypisany tekst „Piątka większa od trójki”",
+            "Zostanie wypisany komunikat o błędzie w kodzie programu"
+          ],
+          "values": [
+            false,
+            false,
+            true,
+            false
+          ]
+        },
+        {
+          "question": "Które z wymienionych opisów dotyczy PowerShella:",
+          "answers": [
+            "ułatwia zadania administracyjne",
+            "jest zgodny linuksową powłoką shell",
+            "może być wykorzystywany tylko przez administratorów",
+            "może być wykorzystywany przez wszystkich użytkowników"
+          ],
+          "values": [
+            true,
+            false,
+            false,
+            true
+          ]
+        },
+        {
+          "question": "Wskaż prawdziwe zdania. Zdania dotyczą polityki uruchamiania skryptów w konsoli PowerShell.",
+          "answers": [
+            "Polityka Unrestricted umożliwia uruchamianie niepodpisanych skryptów.",
+            "Polityka Restricted umożliwia uruchomienie tylko tych skryptów, które pochodzą z lokalnego komputera.",
+            "Polityka AllSigned jest polityką domyślną.",
+            "Polityka AllSigned umożliwia uruchamianie skryptów które zostały podpisane przez zaufanego wydawcę lub pochodzą z komputera lokalnego."
+          ],
+          "values": [
+            true,
+            false,
+            false,
+            true
+          ]
+        },
+        {
+          "question": "Wskaż prawdziwe zdania. Zdania dotyczą uruchamiania skryptów w konsoli PowerShell.",
+          "answers": [
+            "W konsoli PowerShell nie jest możliwe uruchomienie skryptu bez podania jego pełnej ścieżki.",
+            "W konsoli PowerShell jest możliwe uruchomienie skryptu bez podania jego pełnej ścieżki, jednak wymaga to ustawienia odpowiedniej polityki uruchamiania skryptów.",
+            "W konsoli PowerShell jest możliwe uruchomienie jakiegokolwiek skryptu bez podania jego pełnej ścieżki pod warunkiem, że bieżącą ścieżką będzie folder zawierający skrypt oraz polityka uruchamiania skryptów jest ustawiona na Unrestricted.",
+            "W konsoli PowerShell jest możliwe uruchomienie skryptu bez podawania jego pełnej ścieżki w przypadku gdy skrypt ten pochodzi z komputera lokalnego."
+          ],
+          "values": [
+            true,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "question": "Windows PowerShell:",
+          "answers": [
+            "Jest zintegrowany z .NET Framework",
+            "Dostępny jest dla systemu Windows 2000",
+            "Jest interpreterem poleceń",
+            "Zwraca w wyniku każdego polecenia zmienną typu string"
+          ],
+          "values": [
+            true,
+            false,
+            true,
+            false
+          ]
+        },
+        {
+          "question": "Polecenie: \"get-childitem C:\\Kolokwium\\Main\\* -include *.kol -recurse | remove-item\" w Windows PowerShell:",
+          "answers": [
+            "Znajduje i usuwa wszystkie pliki z rozszerzeniem \"kol\" z folderu \"C:\\Kolokwium\\Main\" i jego podfolderów",
+            "Znajduje i usuwa wszystkie pliki z rozszerzeniem \"kol\" z folderu nadrzędnego do \"C:\\Kolokwium\\Main\", tzn. \"C:\\Kolokwium\"",
+            "Znajduje i usuwa wszystkie pliki z rozszerzeniem \"kol\" wyłącznie z folderu \"C:\\Kolokwium\\Main\"",
+            "Żadna z odpowiedzi nie jest prawidłowa"
+          ],
+          "values": [
+            true,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "question": "Wskaż poprawne zdania dotyczące zmiennych w Windows PowerShell:",
+          "answers": [
+            "Wszystkie zmienne są obiektami .NET.",
+            "Zmienne muszą mieć nadany typ.",
+            "Wartość do zmiennej przypisuje operator „:=”",
+            "Zmienne mogą mieć zakres widoczności."
+          ],
+          "values": [
+            true,
+            false,
+            false,
+            true
+          ]
+        },
+        {
+          "question": "Które z poniższych skryptów PowerShella wydrukują listę nazw wszystkich plików o rozszerzeniu .txt w aktualnie wybranym katalogu?",
+          "answers": [
+            "get-childitem | where-object {$_.extension -eq \".txt\"} | format-table name",
+            "get-childitem | format-table name | where-object {$_.extension -eq \".txt\"}",
+            "foreach($a in get-childitem) {  if($a.extension -eq \".txt\") {  $a.name } }",
+            "get-childitem | foreach {if($_.extension -eq \".txt\"){$_.name}}"
+          ],
+          "values": [
+            true,
+            false,
+            true,
+            true
+          ]
+        },
+        {
+          "question": "Zamiennikiem poleceo dir i ls w PowerShell jest polecenie:",
+          "answers": [
+            "Get-ChildItem",
+            "Get-Content",
+            "Tee-Object",
+            "Set-Variable"
+          ],
+          "values": [
+            true,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "question": "Co charakteryzuje PowerShell:",
+          "answers": [
+            "Nie rozróżnia wielkości liter w komendach",
+            "Każdą linię w pliku .ps należy zakończyć średnikiem",
+            "Zmienne oznacza się znakiem dolara '$'",
+            "Istnieje różnica między pojedynczym a podwójnym cudzysłowem"
+          ],
+          "values": [
+            true,
+            false,
+            true,
+            true
+          ]
+        },
+        {
+          "question": "Które zdania o PowerShel są FAŁSZYWE:",
+          "answers": [
+            "jest zintegrowany z .NET Framework",
+            "GetChildItem zwraca wszystkie obiekty jakie zawierają dzieci bieżącej lokalizacji",
+            "Zmienne są obiektami",
+            "Do zmiennych odwołujemy się znakiem \\%"
+          ],
+          "values": [
+            false,
+            true,
+            false,
+            true
+          ]
+        },
+        {
+          "question": "Instrukcja w PowerShel która zatrzymuje (ang.kill) procesy zaczynające się na literę Y to:",
+          "answers": [
+            "get-process Y* | stop-process",
+            "get-process Y* | kill-proces",
+            "ps Y* | stop-process",
+            "ps Y* | kill-process"
+          ],
+          "values": [
+            true,
+            false,
+            true,
+            true
+          ]
+        },
+        {
+          "question": "Użytkownik korzysta z Powershella w środowisku Windows i znajduje się w lokalizacji C:\\MyScripts> po wywołaniu komendy ls, okazało się, że w tym folderze znajduje się plik script.ps1. Użytkownik zamierzając go uruchomić, zmienił aktualna politykę wykonywania skryptów z Restricted na RemoteSigned. Które z poniższych komend uruchomią w/w skrypt?",
+          "answers": [
+            "run script.ps1",
+            "script.ps1",
+            "C:\\MyScripts\\script.ps1",
+            ".\\script.ps1"
+          ],
+          "values": [
+            false,
+            false,
+            true,
+            true
+          ]
+        },
+        {
+          "question": "Co się stanie po wywołaniu komendy: get-process pow* | stop-process",
+          "answers": [
+            "Zostaną zatrzymane wszystkie procesy, których nazwa zaczyna się od ciągu znaków \"pow\"",
+            "Powershell zostanie wyłączony",
+            "Zostaną zatrzymane wszystkie procesy, których nazwa zawiera ciąg znaków \"pow\"",
+            "Nic się nie stanie"
+          ],
+          "values": [
+            true,
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "question": "Wskaż poprawne polecenia PowerShell usuwające z bieżącego katalogu pliki większe niż 2kB:",
+          "answers": [
+            "Get-Childitem | Where-Object { $_.length -gt 2kB } | Remove-Item",
+            "Get-Childitem | Where-Object ( $_.length > 2kB ) | Remove-Item",
+            "Get-Childitem | Remove-Item | Where ($length > 2kB)",
+            "ls | where-object { $_.length -gt 2kB } | rm"
+          ],
+          "values": [
+            true,
+            false,
+            false,
+            true
+          ]
+        },
+        {
+          "question": "Po wykonaniu w konsoli PowerShell polecenia Get-ExecutionPolicy otrzymano rezultat \"Restricted\". Oznacza to, że użytkownik:",
+          "answers": [
+            "Nie może uruchamiać żadnych skryptów, a jedynie osobne komendy",
+            "Może uruchamiać niepodpisane skrypty pochodzące z lokalnego komputera",
+            "Może uruchamiać podpisane skrypty pobrane z Internetu",
+            "Może uruchamiać niepodpisane skrypty pobrane z Internetu"
+          ],
+          "values": [
+            true,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "question": "W PowerShell polecenie Get-Process:",
+          "answers": [
+            "Wylistuje wszystkie aktualnie uruchomione procesy",
+            "Zmieni priorytet procesu",
+            "Zmieni właściciela procesu na aktualnie zalogowanego użytkownika",
+            "Przekierowuje wynik działania procesu (standardowe wyjście) do pliku"
+          ],
+          "values": [
+            true,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "question": "W PowerShell polityka bezpieczeostwa RemoteSigned zezwala na:",
+          "answers": [
+            "Wykonywanie dowolnych skryptów.",
+            "Uruchamianie skryptów podpisanych przez zaufanego wydawcę.",
+            "Uruchamianie niepodpisanych skryptów, które powstały na lokalnym komputerze.",
+            "Korzystanie jedynie z pojedynczych komend, bez możliwości uruchamiania skryptów."
+          ],
+          "values": [
+            false,
+            true,
+            true,
+            false
+          ]
+        },
+        {
+          "question": "Prawidłowa postać pętli for w PowerShell to:",
+          "answers": [
+            "for (i = 1, i -le 10, i++) { }",
+            "for (i = 1; i -le 10; i++) { }",
+            "for ($i = 1; $i <= 10; i++) { }",
+            "for ($i = 1; $i -le 10; $i++) { }"
+          ],
+          "values": [
+            false,
+            false,
+            false,
+            true
+          ]
+        },
+        {
+          "question": "Jaki jest rezultat polecenia interpretera PowerShell: get-childitem C:\\Work\\-recurse | get-acl | where { $_.Owner -match \"Maniek\"}",
+          "answers": [
+            "Wypisze wszystkie pliki, których właścicielem jest Maniek z folderu C:\\Work oraz podfolderów",
+            "Wypisze tylko pliki z folderu C:\\Work, których właścicielem jest Maniek.",
+            "Wypisze wszystkie pliki z dysku C:, których właścicielem jest Maniek.",
+            "Wypisze pliki, które nie należą do użytkownika Maniek, z folderu C:\\Work"
+          ],
+          "values": [
+            true,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "question": "Co otrzymamy po wykonaniu następującej komendy w interpreterze PowerShell: PS C:\\> Get-ChildItem | where { !$_.PslsContainer  } | Select-Object name",
+          "answers": [
+            "Tylko nazwy folderów jakie znajdują się w lokalizacji C:\\ ",
+            "Tylko nazwy folderów i podfolderów jakie znajdują się w lokalizacji C:\\ ",
+            "Tylko nazwy plików jakie znajdują się w lokalizacji C:\\ ",
+            "Dokładny opis folderów, czyli m.in. nazwy i uprawnienia jakie znajdują się w lokalizacji C:\\ "
+          ],
+          "values": [
+            false,
+            false,
+            true,
+            false
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DSO - Windows - API",
+      "questions": [
+        {
+          "question": "Do funkcji Windows APi należą:",
+          "answers": [
+            "CreateWindowsEx",
+            "strcmp",
+            "ShowWindow",
+            "atoi"
+          ],
+          "values": [
+            true,
+            false,
+            true,
+            false
+          ]
+        },
+        {
+          "question": "Kiedy musi być zarejestrowana klasa okna w Windows API",
+          "answers": [
+            "klasa okna może być zarejestrowana zarówno przed jak i po utworzeniu okna",
+            "przed utworzeniem okna",
+            "po utworzeniu okna",
+            "klasa okna nie jest rejestrowana w Window API"
+          ],
+          "values": [
+            false,
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "question": "HWND:",
+          "answers": [
+            "Jest strukturą przechowującą wskaźniki do poszczególnych okien aplikacji",
+            "Jest wskaźnikiem na funkcję obsługującą komunikaty napływające do okna aplikacji",
+            "Jest uchwytem okna aplikacji",
+            "Jest funkcją pozwalającą na zdefiniowanie głównego okna aplikacji"
+          ],
+          "values": [
+            false,
+            false,
+            true,
+            false
+          ]
+        },
+        {
+          "question": "Aby wyświetlić krótki komunikat dla użytkownika przy użyciu okna modalnego można użyć funkcji:",
+          "answers": [
+            "ShowDialog(...)",
+            "MsgBox(...)",
+            "MessageBox(...)",
+            "ShowModDialog(...)"
+          ],
+          "values": [
+            false,
+            false,
+            true,
+            false
+          ]
+        },
+        {
+          "question": "Kod programów pisanych z bezpośrednim wykorzystaniem Win32API musi zawierać:",
+          "answers": [
+            "Instrukcję #include",
+            "Wywołanie funkcji CreateWindowEx(...)",
+            "Funkcję WinMain(...)",
+            "Funkcję WINAPI(...)"
+          ],
+          "values": [
+            false,
+            false,
+            true,
+            false
+          ]
+        },
+        {
+          "question": "Windows API pozwala na:",
+          "answers": [
+            "komunikację sieciową",
+            "dostęp do systemu plików",
+            "tworzenie interfejsu graficznego",
+            "dostęp do rejestrów systemu"
+          ],
+          "values": [
+            true,
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "question": "Aby mozliwa była zdalna istalacja, to maszyna kliencka moze uruchamiac sie z:",
+          "answers": [
+            "dysku twardego",
+            "karty sieciowej",
+            "napedu CD / DVD",
+            "nie ma to znaczenia"
+          ],
+          "values": [
+            false,
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "question": "MDi w API jest skrótem od:",
+          "answers": [
+            "Media Download Interface",
+            "Mass Data Interface",
+            "Mass Data Interface",
+            "Multicolor Data Interface"
+          ],
+          "values": [
+            false,
+            false,
+            true,
+            false
+          ]
+        },
+        {
+          "question": "UpdateWindow:",
+          "answers": [
+            "Jest funkcją wysyłającą komunikat do okna aplikacji informującym go o potrzebie przerysowania",
+            "Jest domyślną funkcją obsługującą przerysowanie okna lub jego fragmentu",
+            "Jest komunikatem wysyłanym do okna bezpośrednio po jego wyświetleniu",
+            "Jest komunikatem wysyłanym do okna aplikacji informującym go o potrzebie przerysowania"
+          ],
+          "values": [
+            true,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "question": "Czy dany przycisk został naciśnięty możemy sprawdzić poprzez:",
+          "answers": [
+            "Porównanie uchwytu do przycisku wewnątrz procedury obsługi komunikatów przy zdarzeniu WM_COMMAND",
+            "Porównanie adresu kontrolki przycisku",
+            "Porównanie ID przypisanego do przycisku wewnątrz procedury obsługi komunikatów przy zdarzeniu WM_COMMAND",
+            "Wykonanie procedury obsługi przerwania danego przycisku"
+          ],
+          "values": [
+            true,
+            false,
+            true,
+            false
+          ]
+        },
+        {
+          "question": "Wyświetlenie okna Message Box:",
+          "answers": [
+            "Powoduje utworzenie dla niego nowego procesu w systemie",
+            "Jest wywołaniem blokującym (blokuje wykonanie dalszej części kodu aż do zamknięcia Message Box'a)",
+            "Polega na obsłudze odpowiedniego komunikatu w pętli obsługi komunikatów.",
+            "Możemy uzyskać poprzez wywołanie kodu: MessageBox(NULL, L\"Welcome to Win32 Application Development\n\", NULL, NULL);"
+          ],
+          "values": [
+            false,
+            true,
+            false,
+            true
+          ]
+        },
+        {
+          "question": "DefWindowProc",
+          "answers": [
+            "Jest domyślną funkcją obsługującą komunikaty napływające do okna aplikacji",
+            "Jest wskaźnikiem na funkcję obsługującą komunikaty napływające do okna aplikacji",
+            "Jest funkcją pozwalającą na zdefiniowanie głównego okna aplikacji",
+            "Jest strukturą pozwalająca na m.in. zdefiniowanie głównego okna aplikacji"
+          ],
+          "values": [
+            true,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "question": "Jakie rodzaje komunikatów mogą docierać do okna?",
+          "answers": [
+            "zmiana rozmiaru okna",
+            "pojedyncze bądź podwójne kliknięcie myszą w obszarze okna",
+            "zmiana położenia okna",
+            "naciśnięcie klawisza"
+          ],
+          "values": [
+            true,
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "question": "WNDCLASS/WNDCLASSEX",
+          "answers": [
+            "Obsługuje kolejkę komunikatów napływających do okna aplikacji",
+            "Jest strukturą przechowującą wskaźniki do poszczególnych okien aplikacji",
+            "Jest strukturą pozwalającą zdefiniować np. kolory okna aplikacji",
+            "Jest odpowiednikiem funkcji main() w programach pisanych w WinAPI"
+          ],
+          "values": [
+            false,
+            false,
+            true,
+            false
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DSO - Windows - RAID",
+      "questions": [
+        {
+          "question": "Na komputerze posiadającym 5 dysków ma zostać zainstalowany system operacyjny Windows 2008 Server, który powinien zapewnić pracę z minimalnym prawdopodobieństwem utraty danych oraz łatwą administracją dyskami. Jaką konfigurację powinien wybrać administrator zakładając, że nie może użyć macierzy sprzętowych?",
+          "answers": [
+            "wszystkie dyski spięte w mirror",
+            "2 dyski spięte w mirror, pozostałe 3 dyski spięte w RAID5",
+            "wszystkie 5 dysków spiętych w RAID5",
+            "dyski spięte w spanned volume, 2 dyski spięte w mirror"
+          ],
+          "values": [
+            false,
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "question": "Maksymalna ilość dysków, które mogą ulec awarii bez utraty danych wynosi:",
+          "answers": [
+            "1, dla 2 dysków pracujących w RAID0",
+            "1, dla 3 dysków pracujących w RAID5",
+            "1, dla 2 dysków pracujących w RAID1",
+            "2, dla 3 dysków pracujących w RAID5"
+          ],
+          "values": [
+            false,
+            true,
+            true,
+            false
+          ]
+        },
+        {
+          "question": "RAID:",
+          "answers": [
+            "jest stosowane w celu zwiększenia niezawodności",
+            "wymaga minimum 3 dysków fizycznych do pracy",
+            "jest stosowane w celu zwiększenia wydajności transmisji danych",
+            "jest stosowane w celu powiększenia przestrzeni dostępnej jako jedna całość"
+          ],
+          "values": [
+            true,
+            false,
+            true,
+            true
+          ]
+        },
+        {
+          "question": "Mirrored volume w systemie Windows 2008 ma następujące właściwości:",
+          "answers": [
+            "może chronić wolumen bootowalnego systemu operacyjnego Windows 2008",
+            "do założenia wymaga 2 identycznych partycji na dyskach typu „basic disk”",
+            "można go utworzyć na 2 dyskach",
+            "wymaga zakupienia specjalnego kontrolera dysków"
+          ],
+          "values": [
+            true,
+            false,
+            true,
+            false
+          ]
+        },
+        {
+          "question": "Które z poniższych zdań na temat macierzy RAID5 są prawdziwe?",
+          "answers": [
+            "RAID5 działa poprawnie do awarii więcej niż jednego dysku",
+            "Macierz RAID5 wymaga minimum 4 dysków",
+            "W n-dyskowej macierzy bity parzystości są na n-1 dyskach",
+            "Macierz złożona z n jednakowych dysków ma objętość n-1 dysków"
+          ],
+          "values": [
+            true,
+            false,
+            false,
+            true
+          ]
+        },
+        {
+          "question": "Aby wykorzystać programowy RAID5 w systemie Windows 2008 Serwer należy posiadać komputer z zainstalowanymi",
+          "answers": [
+            "trzema dyskami",
+            "trzema dyskami oraz kontrolerem umożliwiającym systemowi Windows 2008 Server utworzenie programowej macierzy RAID5",
+            "czterema dyskami",
+            "pięcioma dyskami"
+          ],
+          "values": [
+            false,
+            false,
+            true,
+            true
+          ]
+        },
+        {
+          "question": "Dla których wolumenów prawdopodobieństwo utraty danych jest większe niż dla wolumenu prostego (simple volume):",
+          "answers": [
+            "spanned volume",
+            "striped volume",
+            "RAID5",
+            "mirrored volume"
+          ],
+          "values": [
+            true,
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "question": "Na ilu dyskach można założyć wolumen paskowany używając systemu operacyjnego Windows 2008?",
+          "answers": [
+            "na 1",
+            "na 2",
+            "na 3",
+            "na 4"
+          ],
+          "values": [
+            false,
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "question": "",
+          "answers": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "values": [
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "question": "Zaznacz poprawne stwierdzenia dotyczące dysków podstawowych i dynamicznych w systemach Windows:",
+          "answers": [
+            "Dyski podstawowe posiadają te same możliwości i funkcje co dyski dynamiczne jednak ich konfiguracja jest nieco trudniejsza",
+            "Dyski dynamiczne dostępne są tylko w systemach windows z rodziny serwer",
+            "Dyski podstawowe pozwalają na tworzenie podstawowych partycji, rozszerzonych partycji oraz dysków logicznych",
+            "W niektórych wersjach systemu windows istnieje możliwość scalenia kilku oddzielnych dynamicznych dysków w jeden wolumen dynamiczny"
+          ],
+          "values": [
+            false,
+            false,
+            true,
+            true
+          ]
+        },
+        {
+          "question": "Na komputerze posiadającym 6 dysków zostanie zainstalowany system operacyjny Windows 2008 Server. Która konfiguracja pozwoli na pracę z najlepszym wykorzystaniem przestrzeni na dyskach zakładając, że nie można użyć macierzy sprzętowych?",
+          "answers": [
+            "2 dyski spięte w mirror, 3 dyski spięte w RAID5",
+            "2 dyski spięte w mirror, pozostałe 4 dyski spięte w wolumen paskowany",
+            "wszystkie 6 dysków spiętych w RAID5",
+            "utworzone 3 mirrory po 2 dyski każdy"
+          ],
+          "values": [
+            false,
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "question": "Na ilu dyskach można założyć wolumen paskowany używając systemu operacyjnego Windows 7?",
+          "answers": [
+            "na 1",
+            "na 2",
+            "na 3",
+            "na 5"
+          ],
+          "values": [
+            false,
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "question": "Na komputerze posiadającym 3 dyski zostanie zainstalowany system operacyjny Windows 2008 Server. Która konfiguracja pozwoli na pracę z najlepszym wykorzystaniem przestrzeni na dyskach zakładając, że nie można użyć macierzy sprzętowych?",
+          "answers": [
+            "2 dyski spięte w mirror, jeden dysk bez zabezpieczeń",
+            "3 dyski spięte w spanned volume",
+            "wszystkie 3 dyski spięte w RAID5",
+            "wszystkie dyski spięte w mirror"
+          ],
+          "values": [
+            true,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "question": "Które konfiguracje RAID zwiększają wydajność (gdzie wzrost wydajności należy zrozumieć jako wzrost prędkości odczytu i zapisu)?",
+          "answers": [
+            "RAID0",
+            "RAID0+1",
+            "RAID1+0",
+            "RAID1"
+          ],
+          "values": [
+            true,
+            true,
+            true,
+            false
+          ]
+        },
+        {
+          "question": "W systemie Windows 7 na 5 dyskach za pomocą systemu operacyjnego został założony RAID5. Po pewnym czasie podczas pracy systemu 1 dysk uległ uszkodzeniu.",
+          "answers": [
+            "odzyskiwanie danych będzie możliwe tylko z ostatniej archiwizacji",
+            "jeśli uszkodzony dysk zostanie wymieniony na nowy to po ponownym uruchomieniu systemu dane zostaną automatycznie odzyskane",
+            "danych nie będzie można odzyskać",
+            "w systemie Windows 7 nie można użyć RAID5"
+          ],
+          "values": [
+            false,
+            false,
+            false,
+            true
+          ]
+        },
+        {
+          "question": "Konfiguracja RAID0:",
+          "answers": [
+            "Pojemność wszystkich połączonych dysków jest równa N*pojemność_najmniejszego_dysku, gdzie N to liczba połączonych dysków.",
+            "Nie dostarcza żadnego zabezpieczenia danych.",
+            "Znajduje idealne zastosowanie gdzie wydajność jest ważniejsza od bezpieczeństaw danych.",
+            "Pojemność wszystkich połączonych dysków jest równa pojemności najmniejszego z nich."
+          ],
+          "values": [
+            true,
+            true,
+            true,
+            false
+          ]
+        },
+        {
+          "question": "Jakie są dostępne typy dysków dynamicznych w systemie Windows 2003?",
+          "answers": [
+            "Mirror",
+            "Spanned Volume",
+            "Stripped Volume",
+            "Simple Volume"
+          ],
+          "values": [
+            true,
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "question": "W konfiguracji RAID1:",
+          "answers": [
+            "Dane zapisywane są na obu dyskach równocześnie.",
+            "Dane są zapisywane na kolejnych dyskach bit po bicie, tak jak w przypadku RAID2.",
+            "Efektywna pojemność wynosi 50% pojemności dysków.",
+            "Wykorzystuje paskowanie dysków."
+          ],
+          "values": [
+            true,
+            false,
+            true,
+            false
+          ]
+        },
+        {
+          "question": "Które z poniższych zdań opisują macierz RAID1 (mirroring)?",
+          "answers": [
+            "RAID1 oferuje możliwość strippingu danych.",
+            "Całkowita pojemność danych macierzy jest równa pojemności największego dysku.",
+            "Pojemność macierzy jest równa pojemności najmniejszego dysku pomnożonego przez liczbę dysków.",
+            "Odporność na awarię N-1 dysków w N-dyskowej macierzy."
+          ],
+          "values": [
+            false,
+            false,
+            false,
+            true
+          ]
+        },
+        {
+          "question": "W przypadku którego typu konfiguracji dysków istnieje możliwość odzyskania danych jeśli jeden z dysków macierzy ulegnie awarii?",
+          "answers": [
+            "konfiguracja typu stripped volume",
+            "konfiguracja typu RAID5",
+            "konfiguracja typu mirror",
+            "konfiguracja typu spanned volume"
+          ],
+          "values": [
+            false,
+            true,
+            true,
+            false
+          ]
+        },
+        {
+          "question": "Mirrored volume w systemie Windows 2008 ma następujące właściwości:",
+          "answers": [
+            "może chronić wolumen z bootowalnym systemem operacyjnym Windows 2008.",
+            "może obejmować więcej niż 2 dyski.",
+            "całkowicie likwiduje ryzyko utraty danych.",
+            "nie można go założyć na dyskach typu 'basic disk'."
+          ],
+          "values": [
+            true,
+            false,
+            false,
+            true
+          ]
+        },
+        {
+          "question": "Który z typów RAID zapewni bezpieczeństwo przy awarii jednego dysku?",
+          "answers": [
+            "RAID0+1",
+            "RAID0",
+            "RAID1",
+            "RAID5"
+          ],
+          "values": [
+            true,
+            false,
+            true,
+            true
+          ]
+        },
+        {
+          "question": "Wskaż poprawną odpowiedź:",
+          "answers": [
+            "Przestrzeń macierzy w RAID0 jest zależna od rozmiaru najmniejszego z użytych dysków.",
+            "RAID0+1 i RAID1+0 udostępniają 100% sumy pojemności wszystkich użytych dysków.",
+            "RAID4 to macierz, której dane na dyskach są paskowane.",
+            "Awaria dwóch dysków w RAID6 nie powoduje utraty danych."
+          ],
+          "values": [
+            true,
+            false,
+            false,
+            true
+          ]
+        },
+        {
+          "question": "Programowy RAID5 w systemie Windows 2008 Server:",
+          "answers": [
+            "można utworzyć już na 2 dyskach.",
+            "można utworzyć na 4 dyskach.",
+            "Zwiększa odporność systemu na awarie dysków.",
+            "można założyć na dyskach typu 'dynamic' lub basic."
+          ],
+          "values": [
+            false,
+            true,
+            true,
+            false
+          ]
+        },
+        {
+          "question": "Jakie właściwości ma programowy RAID5 w systemie operacyjnym Windows 2008?",
+          "answers": [
+            "można go założyć na 5 dyskach.",
+            "umożliwia lepsze wykorzystanie przestrzeni na dyskach niż wolumen paskowany.",
+            "zapewnia bezawaryjną pracę systemu.",
+            "pozwala uniknąć fragmentacji systemu plików."
+          ],
+          "values": [
+            true,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "question": "Zaznacz zdania prawdziwe:",
+          "answers": [
+            "RAID występuje wyłącznie sprzętowy.",
+            "RAID występuje wyłącznie programowy.",
+            "RAID występuje zarówno programowy jak i sprzętowy.",
+            "Nie ma żadnej możliwości uruchomienia RAID w domowym komputerze PC."
+          ],
+          "values": [
+            false,
+            false,
+            true,
+            false
+          ]
+        },
+        {
+          "question": "Które z podanych zdań są prawdziwe?",
+          "answers": [
+            "RAID programowy pozwala na bezpośredni start systemu z macierzy dyskowej.",
+            "RAID sprzętowy posiada wyższą wydajność od RAID programowego, gdyż przeliczaniem sum kontrolnych zajmuje się dedykowany kontroler.",
+            "RAID programowy posiada większą kompatybilność z mniej popularnymi systemami operacyjnymi, gdyż wszystkie systemy operacyjne obsługują technologię RAID.",
+            "RAID sprzętowy pozwala na bezpośredni start systemu z macierzy dyskowej."
+          ],
+          "values": [
+            false,
+            true,
+            false,
+            true
+          ]
+        },
+        {
+          "question": "W systemie windows 2008 na 5 dyskach za pomocą systemu operacyjnego został założony RAID5 Po pewnym czasie podczas pracy systemu 2 dyski uległy uszkodzeniu.",
+          "answers": [
+            "jeśli uszkodzone dyski zostaną wymienione na nowe to po ponownym uruchomieniu systemu dane zostaną automatycznie odzyskane",
+            "odzyskiwanie danych będzie przezroczyste dla użytkowników jeśli dyski są typu hot swap",
+            "w systemie Windows 2008 nie można użyć RAID5",
+            "dane będzie można odzyskać tylko z archiwizacji, a nie z RAID5"
+          ],
+          "values": [
+            false,
+            false,
+            false,
+            true
+          ]
+        },
+        {
+          "question": "Jakie właściwości ma programowy RAID5 na systemie operacyjnym Windows 2008?",
+          "answers": [
+            "można go założyć na pięciu dyskach",
+            "umożliwia lepsze wykorzystanie przestrzeni na dyskach niż wolumen paskowany",
+            "zapewnia bezawaryjną pracę systemu",
+            "pozwala uniknąć fragmentacji systemu plików"
+          ],
+          "values": [
+            true,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "question": "Konfiguracja RAID2:",
+          "answers": [
+            "jest rozszerzeniem architektury RAID0",
+            "dane są zapisywane na kolejnych dyskach macierzy bit po bicie",
+            "cechuje się dużą wydajnością przy operacjach odczytu",
+            "jest często stosowana w macierzach dyskowych"
+          ],
+          "values": [
+            true,
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "question": "Dyski typu podstawowego (ang. basic disks) pozwalają na:",
+          "answers": [
+            "oznaczenie partycji jako aktywnej",
+            "rozszerzenie woluminów prostych (ang. simple volume)",
+            "tworzenie partycji podstawowej",
+            "tworzenie woluminów RAID5"
+          ],
+          "values": [
+            true,
+            false,
+            true,
+            false
+          ]
+        },
+        {
+          "question": "Dla których wolumenów prawdopodobieństwo utraty danych jest mniejsze niż dla wolumenu łączonego (spanned volume):",
+          "answers": [
+            "mirrored volume",
+            "striped volume",
+            "simple volume",
+            "RAID5"
+          ],
+          "values": [
+            true,
+            false,
+            true,
+            true
+          ]
+        },
+        {
+          "question": "Jakie właściwości ma programowy RAID5 na systemie operacyjnym Windows 2008?",
+          "answers": [
+            "zapewnia bezawaryjną pracę systemu",
+            "chroni system przed awarią tylko jednego dysku",
+            "pozwala uniknąć fragmentacji systemu plików",
+            "umożliwia lepsze wykorzystanie przestrzeni na dyskach niż wolumen paskowany"
+          ],
+          "values": [
+            false,
+            true,
+            false,
+            false
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DSO - Windows - GPO",
+      "questions": [
+        {
+          "question": "Na jakich poziomach w Active Directory mogą być przypisywane obiekty GPO?",
+          "answers": [
+            "Lokalnie ",
+            "Na poziomie lokacji",
+            "Na poziomie domeny",
+            "Na poziomie jednostki organizacyjnej"
+          ],
+          "values": [
+            true,
+            false,
+            true,
+            true
+          ]
+        },
+        {
+          "question": "Aby wyświetlić wynikowy zestaw zasad dla użytkownia Sysop należy użyć polecenia:",
+          "answers": [
+            "gpresult /gpo Sysop",
+            "gpresult /?",
+            "gpresult /user Sysop",
+            "gpresult /u Sysop"
+          ],
+          "values": [
+            false,
+            false,
+            true,
+            false
+          ]
+        },
+        {
+          "question": "Wskaż prawdziwe zdania dotyczące GPO",
+          "answers": [
+            "Akronin GPO rozwija się jako Group Policy Operation",
+            "Za pomocą GPO Standard Desktop można zabronić dostępu do Panelu Sterowania",
+            "Dane jednego GPO mogą być przypisane tylko jednej jednostce organizacyjnej",
+            "Nie da się wyłączyć stosowania zasad GPO danej jednostki organizacyjnej bez usuwania GPO lu łącza obiektu"
+          ],
+          "values": [
+            false,
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "question": "Gdzie w rejestrze systemowym można znaleźć wpisy wynikające z GPO?",
+          "answers": [
+            "HKEY LOCAL MACHINE (HKLM)",
+            "HKEY CLASSES ROOT (HKCR)",
+            "HKEY CURRENT USER (HKCU)",
+            "HKEY USERS (HKU)"
+          ],
+          "values": [
+            true,
+            false,
+            true,
+            false
+          ]
+        },
+        {
+          "question": "W jaki sposób można modyfikować domyślne przetwarzanie obiektów zasad grupy?",
+          "answers": [
+            "Blokując dziedziczenie zasad grupy",
+            "Definiując warunkowe wprowadzanie ustawień.",
+            "Wyłączając przetwarzanie konkretnego łącza GPO",
+            "Wyłączając nadpisywanie ustawień wprowadzanych przez konkretne łącze GPO."
+          ],
+          "values": [
+            true,
+            false,
+            true,
+            true
+          ]
+        },
+        {
+          "question": "Group Policy Management Console umożliwia:",
+          "answers": [
+            "Wszystkie funkcje konsoli Power Shell, oraz dodatkowo funkcje zarządzania obiektami GPO",
+            "Stworzenie kopii zapasowej obiektów GPO",
+            "Łatwiejsze zarządzanie obiektami GPO, dzięki graficznemu interfejsowi użytkownika",
+            "Tworzenie logów każdej operacji użytkownika w wybranej przez administratora grupie"
+          ],
+          "values": [
+            false,
+            true,
+            true,
+            false
+          ]
+        },
+        {
+          "question": "System Windows w ramach zarządzania GPO umożliwia:",
+          "answers": [
+            "Filtrowanie ustawień GPO - wyłączenie stosowania określonych zasad GPO",
+            "Wymuszanie stosowania zasad GPO",
+            "Przeglądanie wdrażania elementów GPO dla danej jednostki organizacyjnej",
+            "Blokowanie dziedziczenia ustawień obiektów GPO"
+          ],
+          "values": [
+            true,
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "question": "Które narzędzia służą do tworzenia i zarządzania GPO?",
+          "answers": [
+            "Konsola Group Policy Management",
+            "narzędzie gpadd",
+            "Group Policy Object Editor z Active Directory Users and Computers",
+            "narzędzie gpomod"
+          ],
+          "values": [
+            true,
+            false,
+            true,
+            false
+          ]
+        },
+        {
+          "question": "GPO jest to: Wskaż wszystkie poprawne odpowiedzi.",
+          "answers": [
+            "Zbiór ustawień, który określa jak będzie się zachowywał i wyglądał system, dla zdefiniowanych grup użytkowników.",
+            "Narzędzie administracyjne, służące do zarządzania zasadami grup.",
+            "Obiekt, mogący istnieć tylko lokalnie zawierający zasady działania systemu dla grup użytkowników.",
+            "Zbiór obiektów zawierający ustawienia dotyczące zasad działania systemu, po jednym obiekcie na każdego użytkownika."
+          ],
+          "values": [
+            true,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "question": "W jaki sposób można wyznaczyć efektywne ustawienia dla obiektów GPO?",
+          "answers": [
+            "Za pomocą polecenia gpoeffective",
+            "Za pomocą Group Policy Preferences",
+            "Za pomocą Group Policy Results Wizards",
+            "Za pomocą polecenia gpresult"
+          ],
+          "values": [
+            false,
+            false,
+            true,
+            true
+          ]
+        },
+        {
+          "question": "Program \"GPRESULT\" służy do:",
+          "answers": [
+            "Zmiany zasad GPO",
+            "Zmiany efektywnych ustawień GPO",
+            "Usuwania zasad GPO",
+            "Przeglądania efektywnych ustawień GPO"
+          ],
+          "values": [
+            false,
+            false,
+            false,
+            true
+          ]
+        },
+        {
+          "question": "Które z podanych funkcji może pełnić narzędzie Group Policy Results w kontekście zasad grup?",
+          "answers": [
+            "Generowanie raportów o wpływie zasad grupy na konkretnego użytkownika lub komputer.",
+            "Rejestrowanie prób ominięcia lokalnych zabezpieczeń",
+            "Wyświetlanie informacji o efektywnych ustawieniach dla obiektów jednostki organizacyjnej.",
+            "Eksportowanie ustawień, aby umożliwić ich ponowne wdrożenie w dowolnym momencie."
+          ],
+          "values": [
+            true,
+            false,
+            true,
+            false
+          ]
+        },
+        {
+          "question": "Które narzędzia służą do tworzenia i zarządzania GPO?",
+          "answers": [
+            "Narzędzia gpmod",
+            "Konsola Group Policy Management",
+            "Group Policy Object Editor z Active Directory Users and Computers",
+            "Narzędzie gpadd"
+          ],
+          "values": [
+            false,
+            true,
+            true,
+            false
+          ]
+        },
+        {
+          "question": "Diagnozujesz problem z ustawieniami Zasad Grupy w dużej domenie. chcesz się dowiedzieć, jakie ustawienia są stosowane dla danego komputera.",
+          "answers": [
+            "Przeglądasz ustawienia zasad grupy w konsoli Active Directory Users and Computers",
+            "Korzystasz z narzędzia gpresult",
+            "Korzystasz z  \"Group Policy Result\" w konsoli Group Policy Management",
+            "Nie jest możliwe uzyskanie takich informacji"
+          ],
+          "values": [
+            false,
+            true,
+            true,
+            false
+          ]
+        },
+        {
+          "question": "Jakimi narzędziami możesz konfigurować GPO?",
+          "answers": [
+            "Group Policy Management Console",
+            "Active Directory Sites and Services",
+            "Remote Desktop Assistance",
+            "Edytor obiektów zasad grup"
+          ],
+          "values": [
+            true,
+            true,
+            false,
+            true
+          ]
+        },
+        {
+          "question": "Jaki będzie wynik polecenia gpresult /user user1 w Windows Serwer 2008?",
+          "answers": [
+            "Wyświetlenie rezultatu wykonania polecenia gpupdate dla użytkownika user1",
+            "Nie ma takiego polecenia",
+            "Wyświetlenie ustawień zmiennych globalnych użytkownika user1",
+            "Wyświetlenie zasad grup dla użytkownika user1"
+          ],
+          "values": [
+            false,
+            false,
+            false,
+            true
+          ]
+        },
+        {
+          "question": "Wskaż prawdziwe zdania dotyczące Group Policy Objects",
+          "answers": [
+            "Dany obiekt GPO można przypisać tylko do jednej jednostki organizacyjnej",
+            "Zasady zawarte w GPO przypisanym do domeny są domyślnie dziedziczone przez jednostki organizacyjne tej domeny",
+            "Do jednej jednostki organizacyjnej można przypisać wiele różnych obiektów GPO",
+            "Zasady obiektów GPO przypisanych jednostkom podrzędnym domyślnie nadpisują zasady odziedziczone z GPO jednostek nadrzędnych"
+          ],
+          "values": [
+            false,
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "question": "Co się stanie, jeśli pewne ustawienia obiektu zasad grup ustawimy na poziomie domeny na pewną wartość, a na poziomie komputera ustawimy na przeciwną?",
+          "answers": [
+            "Zastosowane zostanie ustawienie na poziomie \"komputera\"",
+            "Wystąpu konflikt i zostanie zgłoszony błąd",
+            "Poczas uruchamiania tego komputera losowo wybierana będzie wartość, która będzie się do niego stosować",
+            "Zastosowane zostanie ustawienie ustalone na poziomie \"domeny\""
+          ],
+          "values": [
+            true,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "question": "Konsola Group Policy Managment",
+          "answers": [
+            "Umożliwia raportowanie ustawień GPO",
+            "Pozwala na łączenie jednostek organizacyjnych z GPO",
+            "Jest domyślnie zainstalowana w każdej wersji Windowsa 7",
+            "Pozwala zmienić ustawienia dziedziczenia GPO"
+          ],
+          "values": [
+            true,
+            true,
+            false,
+            true
+          ]
+        },
+        {
+          "question": "Zasady grup (GPO) przypisane danemu komputerowi:",
+          "answers": [
+            "Dotyczą tylko administratoeów danego komputera.",
+            "Obowiązują wszystkich użytkowników komputera",
+            "Nie istnieją. Zasady grup mogą zostać przypisane jedynie użytkownikowi.",
+            "Są stosowane podczas uruchamiania komputera"
+          ],
+          "values": [
+            false,
+            true,
+            false,
+            true
+          ]
+        },
+        {
+          "question": "Z jakich części składają się obiekty zasad grup (Group Policy Object)?",
+          "answers": [
+            "Ustawienia systemu",
+            "Ustawienia komputera",
+            "Ustawienia użytkownika",
+            "Ustawienie domyślne"
+          ],
+          "values": [
+            false,
+            true,
+            true,
+            false
+          ]
+        },
+        {
+          "question": "Poniższy skrypt vbs wykonany po zalogowaniu użytkownika: Set objNetowrk = Wscript.CreateObject(\"Wscript.Network\") objNetwork.NapNetworkDrive \"S.:\"\\ LondonPublic\"",
+          "answers": [
+            "Udostępni dysk S jako London LondonPublic",
+            "Podmontuje zdalny zasób sieciowy",
+            "Umożliwi dostęp do zdalnego zasobu sieciowego jako dysk S",
+            "Utworzy nowy zasób sieciowy London LondonPublic"
+          ],
+          "values": [
+            false,
+            true,
+            true,
+            false
+          ]
+        },
+        {
+          "question": "Aby sprawdzić wynikowe ustawienia GPO należy skorzystać z polecenia:",
+          "answers": [
+            "gpoutcome",
+            "gpsummary",
+            "gpupdate",
+            "gpresult"
+          ],
+          "values": [
+            false,
+            false,
+            false,
+            true
+          ]
+        },
+        {
+          "question": "Jakie narzędzia służą do konfigurowania Group Policy:",
+          "answers": [
+            "Narzędzi dsmod",
+            "Konsola Active Directory Users and Computers",
+            "Polecenie dsquery",
+            "Konsola Group Policy Managment"
+          ],
+          "values": [
+            false,
+            false,
+            false,
+            true
+          ]
+        },
+        {
+          "question": "Czy dane GPO może być przypidane kilku różnym jednostkom organizacyjnym?",
+          "answers": [
+            "Tak, może być przypisane, jeżeli te jednostki organizacyjne są zawarte w jednej domenie dla której jest przypisane GPO",
+            "Nie, nie może być przypisane, jeżeli jednostki te są zawarte w jednej domenie dla której jest przypisane GPO.",
+            "Nie, dane GPO zawsze jest przypisane tylko jednej jednostce organizacyjnej",
+            "Dane GPO może być zawsze przypisane kilku różnym jednostkom organizacyjnym. W każdej sytuacji."
+          ],
+          "values": [
+            true,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "question": "Opcja \"Zablokuj dziedziczenie zasad\"",
+          "answers": [
+            "blokuje obiekty zasad grupy, które są stosowane wyżej w hierarchii domen i jednostek organizacyjnych usługi Active Directory.",
+            "może blokować obiekty zasad grupy, dla których włączono opcję \"Nie zastępuj\"",
+            "Może być ustawiona w jednostkach organizacyjnych",
+            "Może być ustawiona w poszczególnych obiektach zasad grupy"
+          ],
+          "values": [
+            true,
+            false,
+            true,
+            false
+          ]
+        },
+        {
+          "question": "Obiekt GPO może zostać przypisany bezpośrednio do:",
+          "answers": [
+            "Domeny",
+            "Jednostki organizacyjnej",
+            "Konkretnego komputera",
+            "Konkretnego użytkownika"
+          ],
+          "values": [
+            true,
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "question": "Wskaż poprawne zdania dotyczące dziedziczenia zasad grup w Windows Server 2008",
+          "answers": [
+            "Jawne określenie ustawienia zasad grupy w kontenerze podrzędnym zastępuje ustawienie odziedziczone z kontenera nadrzędnego",
+            "Ustawienia zasad, które są wyłączone, są dziedziczone jako wyłączone",
+            "Po zaznaczenia pola wyboru \"Nie zastępuj\" (wymuszanie dziedziczenia) kontenery podrzędne są zmuszane do dziedziczenia zasad, chyba że zasady te wchdzą w konflikt z zasadami kontenerów podrzędnych",
+            "Nieskonfigurowane ustawienia zasad w jednostce nadrzędnej może być dziedziczone przez jednostkę podrzędną"
+          ],
+          "values": [
+            true,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "question": "Które z podanych funkcji może pełnić narzędzie Group Policy Results w kontekście zasad grup?",
+          "answers": [
+            "Wyświetlanie informacji o efektywnych ustawieniach dla obiektów jednostki organizacyjnej.",
+            "Eksportowanie ustawień, aby umożliwić ich ponowne wdrożenie w dowolnym momencie",
+            "Rejestrowanie prób ominięcia lokalnych zabezpieczeń",
+            "Generowanie raportów w wpływie zasad grupy na konkretnego użytkownika lub komputer"
+          ],
+          "values": [
+            true,
+            false,
+            false,
+            true
+          ]
+        },
+        {
+          "question": "Ustawienia Group Policy są aplikowane w sytuacji, gdy:",
+          "answers": [
+            "Przy nawiązaniu połączenia VPN",
+            "Użytkownik się loguje",
+            "Co zadany czas",
+            "Komputer jest uruchamiany"
+          ],
+          "values": [
+            true,
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "question": "Opcja \"Zablokuj dziedziczenie zasad\" w AD Users and Computers",
+          "answers": [
+            "nie blokuje dziedziczenia w obiektach zasad grupy, dla których ustawiono wymuszenie dziedziczenia",
+            "może być ustawiona tylko w domenach i jednostkach organizacyjnych",
+            "może być ustawiona w domenach, jednostkach organizacyjnych oraz w poszczególnych obiektach zasad grupy",
+            "może być ustawiona tylko w poszczególnych obiektach zasad grupy"
+          ],
+          "values": [
+            true,
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "question": "Za pomocą GPO można uzyskać:",
+          "answers": [
+            "Przekierowanie folderu domowego \"My Documents\"",
+            "Ograniczenie uprawnień dla wszystkich użytkowników, którzy są zalogowani na danym komputerze",
+            "Ograniczenie uprawnień dla jednostki organizacyjnej",
+            "Ograniczenie uprawnień polegające na zabronieniu dostępu do panelu sterowania"
+          ],
+          "values": [
+            true,
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "question": "Jak są dziedziczone uprawnienia wynikające z GPO?",
+          "answers": [
+            "Nie są dziedziczone. Każdemu obiektowi należy nadać uprawnienia osobno.",
+            "Są dziedziczone przez całą strukturę - jeśli dany obiekt ma rodzica, to jako domyślne przejmuje jego uprawnienia.",
+            "Domyślnie nie są dziedziczone, aby aktywować dziedziczenie należy dla OU ustawić opcję \"Allow Privileges Inherintance\"",
+            "Dzieci dziedziczą jedynie najmniej restrykcyjne uprawnienia swoich rodziców"
+          ],
+          "values": [
+            false,
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "question": "Ustawienia Group Policy dla kont użytkowników mogą zawierać:",
+          "answers": [
+            "Skrypty logowania",
+            "Konfigurację ustawień pulpitu",
+            "Przekierowanie folderu",
+            "Prawa do dostępu do zasobów lokalnych"
+          ],
+          "values": [
+            true,
+            true,
+            true,
+            false
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DSO - Linux - ACL",
+      "questions": [
+        {
+          "question": "Efekt polecenia ls -l file.txt jest następujący: ",
+          "answers": [
+            "setfacl -m u:friend:4, g:class:6 file.txt",
+            "setfacl -m u:friend:r, g:class:rw file.txt",
+            "setfacl -m u:r:friend, g:rw:class file.txt",
+            "setfacl -x u:friend:4, g:class6 file.txt"
+          ],
+          "values": [
+            true,
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "question": "Efekt polecenia ls -l test jest następujący: ",
+          "answers": [
+            "setfacl -d -m g:teacher:rwx test",
+            "brak poprawnej odpowiedzi",
+            "setacl -m g:teacher:rwx test",
+            "nie istnieje żadne polecenie, które pozwalałoby uzyskać podany wynik"
+          ],
+          "values": [
+            true,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "question": "Którym poleceniem można zmienić ustawienia pliku file, tak aby użytkownik user1 miał pełne uprawnienia, a grupa group1 mogła czytać i modyfikować, ale nie mogła go wykonać jako skryptu?",
+          "answers": [
+            "setfacl -m u:user1:7, g:group1:6 file",
+            "setfacl -m u:user1:r-x, g:group1:rw- file",
+            "setfacl -m u:user1:6, g:group1:7 file",
+            "setfacl -m u:user1:rwx, g:group1:rw- file"
+          ],
+          "values": [
+            true,
+            false,
+            false,
+            true
+          ]
+        },
+        {
+          "question": "Polecenie getfacl:",
+          "answers": [
+            "zwraca informacje na temat aktualnych uprawnień zdefiniowanych na liście ACL",
+            "usuwa uprawnienia zdefiniowane na liście ACL",
+            "zwraca informację na temat właściciela pliku",
+            "Pozwala wyświetlić informacje na temat uprawnień zdefiniowanych w ACL dla kilku plików na raz"
+          ],
+          "values": [
+            true,
+            false,
+            true,
+            true
+          ]
+        },
+        {
+          "question": "Zaznacz odpowiadające sobie mapowanie typów ACL na standardowe Linuxowe klasy użytkowników:",
+          "answers": [
+            "named user - owner",
+            "owner - owner",
+            "mask - group",
+            "owning group - group"
+          ],
+          "values": [
+            false,
+            true,
+            true,
+            false
+          ]
+        },
+        {
+          "question": "Polecenie, w wyniku którego każdy nowoutworzony PLIK będzie miał uprawnienia -rwxr-x--- to:",
+          "answers": [
+            "umask 027",
+            "umask 750",
+            "umask 750",
+            "brak poprawnej odpowiedzi"
+          ],
+          "values": [
+            false,
+            false,
+            false,
+            true
+          ]
+        },
+        {
+          "question": "Polecenie setfacl -m u:user1:6, g:group1:7 file.txt:",
+          "answers": [
+            "Ustawi prawa do pliku \"file.txt\" wszystkich użytkowników jako rwx.",
+            "Umożliwi użytkownikowi o nazwie \"user1\" wykonanie pliku \"file.txt\".",
+            "Ustawi prawa do pliku \"file.txt\" użytkownika o nazwie \"user1\" jako rw-, a grupy o nazwie \"group1\" jako rwx.",
+            "Ustawi prawa do pliku \"file.txt\" użytkownika o nazwie \"user1\" jako r--m a grupy o nazwie \"group1\" jako ---."
+          ],
+          "values": [
+            false,
+            false,
+            true,
+            false
+          ]
+        },
+        {
+          "question": "W systemie Linux Debian użytkownik wykonał sekwencję poleceń: ",
+          "answers": [
+            "---rwxr-x 1 labso labso 0 2010-06-11 16:30 test",
+            "-rw----w- labso labso 0 2010-06-11 16:30 test",
+            "-rwx----wx 1 labso labso 0 2010-06-11 16:30 test",
+            "-rw-rw-r-- 1 labso labso 0 2010-06-11 16:30 test"
+          ],
+          "values": [
+            false,
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "question": "Wskaż poprawną odpowiedź dotyczącą instalacji ACL na komputerze z systemem ubuntu/debian:",
+          "answers": [
+            "ACL nie znajduje się oficjalnie w repozytorium. Należy pobrać źródła z internetu oraz samodzielnie przeprowadzić kompilację oraz konfigurację.",
+            "Nie jest wymagana instalacja ACL. Systemy te zawierają preinstalowane paczki związane z ACL.",
+            "Należy zainstalować acl komendą sudo apt-get install acl. Instalator automatycznie skonfiguruje system do pracy z ACL.",
+            "Należy zainstalować acl komendą sudo apt-get install acl, a następnie manualnie przeprowadzić konfigurację systemów plików w pliku /etc/fstav podłączając ACL."
+          ],
+          "values": [
+            false,
+            false,
+            false,
+            true
+          ]
+        },
+        {
+          "question": "Uprawnienia dla nowo tworzonych plików przy masce 066 wyglądają następująco:",
+          "answers": [
+            "-rwxrwxrwx",
+            "-rw-rw-r--",
+            "---rw-rw-",
+            "-rw------"
+          ],
+          "values": [
+            false,
+            false,
+            false,
+            true
+          ]
+        },
+        {
+          "question": "W stosunku do chmod, lista ACL rozszerzyła możliwości przyznawania praw o:",
+          "answers": [
+            "Określenie praw do pliku dla dowolnej grupy.",
+            "Określenie praw do pliku dla dowolnego użytkownika.",
+            "Określenie praw do pliku dla innych - other.",
+            "Określenie praw do pliku dla właściciela - owner."
+          ],
+          "values": [
+            true,
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "question": "W systemie Linux z działającym systemem ACL wydano polecenie getfacl mySong.bin. Otrzymano następujący wynik: ",
+          "answers": [
+            "użytkownik z grupy dzieci może odczytywać plik mySong.bin",
+            "użytkownik maria może odczytywać plik mySong.bin",
+            "użytkownik maria może modyfikować plik mySong.bin",
+            "uzytkowik z grupy dzieci może modyfikować plik mySong.bin"
+          ],
+          "values": [
+            true,
+            true,
+            false,
+            true
+          ]
+        },
+        {
+          "question": "Zaznacz poprawne odpowiedzi dotyczące maski oraz wyznaczania uprawnień dla wpisów ACL powiązanych z klasą grupy:",
+          "answers": [
+            "Maska definiuje maksymalne efektywne uprawnienia dla wszystkich wpisów ACL powiązanych z klasą grupy",
+            "Uprawnienia efektywne powstają przez zsumowanie uprawnień maski z uprawnieniami odpowiedniej klasy ACL",
+            "Maska definiuje minimalne efektywne uprawnienia dla wszystkich wpisów ACL powiązanych z klasą grupy",
+            "Uprawnienia efektywne powstają przez przecięcie uprawnień maski z uprawnieniami odpowiedniej klasy ACL"
+          ],
+          "values": [
+            true,
+            false,
+            false,
+            true
+          ]
+        },
+        {
+          "question": "Wskaż poprawne stwierdzenia dotyczące Linux ACL",
+          "answers": [
+            "Uprawnienie typu named-group można zamaskować",
+            "Maska w Linux ACL określa maksymalne uprawnienia",
+            "Uprawnienie wpisu ACL other można zamaskować",
+            "Uprawnienie typu named-user można zamaskować"
+          ],
+          "values": [
+            true,
+            true,
+            false,
+            true
+          ]
+        },
+        {
+          "question": "Aby korzystać w systemie Linux z Acces Control List (ACL) należy:",
+          "answers": [
+            "ACL jest domyślnie włączony zaraz po instalacji dystrybucji systemu Linux.",
+            "Dodać obsługę ACL do wszytskich systemów plików w pliku /etc/fstab.",
+            "Żadna odpowiedź nie jest poprawna.",
+            "Zainstalować pakiet acl."
+          ],
+          "values": [
+            false,
+            true,
+            false,
+            true
+          ]
+        },
+        {
+          "question": "Efekt polecenia ls -l test.txt jest następujący: ",
+          "answers": [
+            "brak poprawnej odpowiedzi",
+            "setfacl -d -m g:teachers:rwx test",
+            "setfacl -m g:teachers:rwx test",
+            "Nie istnieje żadne polecenie, które pozwalałoby uzyskać podany wynik"
+          ],
+          "values": [
+            false,
+            false,
+            false,
+            true
+          ]
+        },
+        {
+          "question": "W jaki sposób można sprawdzić, czy dany plik ma zdefiniowane dodatkowe uprawnienia ACL?",
+          "answers": [
+            "Poprzez użycie polecenia getfacl",
+            "Poprzez użycie polecenia filefrag",
+            "Korzystając z polecenia ps z argumentem -aux",
+            "Używając polecenia ls"
+          ],
+          "values": [
+            true,
+            false,
+            false,
+            true
+          ]
+        },
+        {
+          "question": "Polecenie, wyniku którego każdy nowoutworzony KATALOG w systemie Debian będzie miał uprawnienia 644 to:",
+          "answers": [
+            "umask 644",
+            "brak poprawnej odpowiedzi",
+            "umask 133",
+            "umask 022"
+          ],
+          "values": [
+            false,
+            false,
+            true,
+            false
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DSO - Linux - Wielosystemowość",
+      "questions": [
+        {
+          "question": "Po zmianie w plikach konfiguracyjnych programu GRUB:",
+          "answers": [
+            "zmiany NIE SĄ automatycznie wprowadzone po zmianie zawartości plików",
+            "należy wydać polecenie update-grub jako root, aby konfiguracja nowa konfiguracja została wprowadzona",
+            "zmiany od razu nie są wprowadzone, zaraz po zmianie pliku",
+            "plików konfiguracyjnych GRUBa nie wolno edytować (jest to robione automatycznie przez system)"
+          ],
+          "values": [
+            true,
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "question": "Wksaż poprawne zdanie na temat dysku /dev/sdd3",
+          "answers": [
+            "Jest to czwarta partycja czwartego dysku SATA",
+            "Jest to czwarta partycja trzeciego dysku SATA",
+            "Oznaczenie nie jest poprawne",
+            "Jest to trzecia partycja czwartego dysku SATA"
+          ],
+          "values": [
+            false,
+            false,
+            false,
+            true
+          ]
+        },
+        {
+          "question": "Czym charakteryzuje się plik konfiguracyjny \"grub.cfg\" menedżera GRUB 2, znajdujący się standardowo w katalogu \"/boot/grub\"?",
+          "answers": [
+            "Jest to jedyny plik konfiguracji GRUB 2, którego własnoręczna edycja nie jest odradzana",
+            "Nie powinien być bezpośrednio edytowany przez użytkownika.",
+            "Może zostać nadpisany w wyniku polecenia \"update-grub\".",
+            "Zawiera wpisy dotyczące uruchamianych systemów operacyjnych."
+          ],
+          "values": [
+            false,
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "question": "Polecenie mount -a",
+          "answers": [
+            "montuje wszystkie systemy plików wylistowane w pliku /etc/fstab",
+            "montuje systemy plików wylistowane w pliku /etc/fstab, które nie korzystają z opcji noauto",
+            "może być wykonane przez dowolnego użytkownika",
+            "zarezerwowane jest tylko dla roota"
+          ],
+          "values": [
+            false,
+            true,
+            false,
+            true
+          ]
+        },
+        {
+          "question": "Wskaż, które z poniższych twierdzeń odnoszących się do pliku konfiguracyjnego \"/etc/fstab\" są poprawne.",
+          "answers": [
+            "Definiując poszczególne systemy plików możemy posłużyć się zarówno unikalnym identyfikatorem dysku, jak i nazwą urządzenia.",
+            "Edytując plik użytkownik może wskazać jako miejsce montowania nieistniejący katalog, w trakcie uruchomienia systemu, katalog taki zostanie utworzony.",
+            "Plik ten zawiera informację na temat wszystkich systemów plików, które powinny być montowane w trakcie uruchamiania systemu.",
+            "Do edycji pliku wymagane są uprawnienia administratora."
+          ],
+          "values": [
+            true,
+            false,
+            true,
+            true
+          ]
+        },
+        {
+          "question": "Używając bootloader'a GRUB2:",
+          "answers": [
+            "hd1 oznacza drugi dysk w systemie (/dev/sdb)",
+            "hd1 oznacza pierwszy dysk w systemie (/dev/sda)",
+            "setroot(hd0, 1) odwoła się do pierwszej partycji pierwszego dysku (dev/sda1)",
+            "setroot(hd0, 1) odwoła się do drugiej partycji pierwszego dysku (dev/sda2)"
+          ],
+          "values": [
+            true,
+            false,
+            true,
+            false
+          ]
+        },
+        {
+          "question": "Co spowoduje dodanie następującego wpisu do pliku /etc/grub.d/40_custom \n menuentry \"Windows\" { \n set root='(hd0,1)' \n chainloader + 1 \n }",
+          "answers": [
+            "Podczas startu bootloadera będziemy mogli wybrać system o nazwie \"Windows\" i będzie one pierwszy na liście dostępnych systemów.",
+            "Jest to niepoprawny wpis.",
+            "Podczas startu bootloadera będziemy mogli wybrać system o nazwie \"Windows\", znajdujący się na dysku \"hd0\".",
+            "W celu załadowania systemu Windows sterowanie zostanie przekazane do pierwszego sektora z podanej partycji (zostanie uruchomiony kod, który się tam znajduje)."
+          ],
+          "values": [
+            false,
+            false,
+            true,
+            true
+          ]
+        },
+        {
+          "question": "Program Grub pozwala na:",
+          "answers": [
+            "Rekompilację jądra Linux",
+            "Automatyczne uruchomienie wybranego systemu z pominięciem wyświetlania ekranu wyboru.",
+            "Zarządzanie dyskami i ich partycjonowanie",
+            "Wybór systemu operacyjnego, który będzie uruchomiony."
+          ],
+          "values": [
+            false,
+            true,
+            false,
+            true
+          ]
+        },
+        {
+          "question": "Parametr ro w opcjach montowania pliku /etc/fstab oznacza, że:",
+          "answers": [
+            "możliwy jest zapis i odczyt na danym systemie plików",
+            "system plików jest zamontowany w trybie tylko do odczytu",
+            "urządzenie może być montowane przez użytkownika",
+            "system plików może być montowany przez każdego użytkownika"
+          ],
+          "values": [
+            false,
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "question": "W jaki sposób dodajemy informacje o innych systemach opracyjnych do GRUB2",
+          "answers": [
+            "Do pliku /etc/grub.d/40_custom dodajemy wpis o systemie, następnie uruchamiamy polecenie sudo update-grub2",
+            "Należy wykonać polecenie grub2-add-new-os z prawami użytkownika",
+            "Można nadać prawa wykonywania skryptowi: /etc/grub.d/30_os-prober. Grub2 podczas aktualizacji wyszuka dostępne systemy operacyjne na dyskach twardych",
+            "GRUB2 sam wykryje wszystkie systemy operacyjne bez konfiguracji"
+          ],
+          "values": [
+            true,
+            false,
+            true,
+            false
+          ]
+        },
+        {
+          "question": "Plik /boot/grub.cfg dla GRand United Bootloader w wersji 2:",
+          "answers": [
+            "posiada definicje wszystkich systemów uruchamianych przez niego",
+            "w przypadku edycji za każdym razem musi być zaktualizowany za pomocą polecenia update-grub",
+            "Tworzony jest automatycznie na podstawie skryptów znajdujących się w katalogu /etc/grub.d/",
+            "Tworzony jest automatycznie na podstawie konfiguracji zdefiniowanej w pliku /etc/grub/default"
+          ],
+          "values": [
+            true,
+            true,
+            true,
+            false
+          ]
+        },
+        {
+          "question": "Wskaż, które z poniższych twierdzeń odnoszących się do bootmanagera GRUB2 są poprawne.",
+          "answers": [
+            "Aby zablokować możliwość wykonywania się danego skryptu podczas aktualizacji GRUB'a wystarczy odebrać mu uprawnienia do odczytu.",
+            "Lista zdefiniowanych, uruchamianych przez GRUB2 systemów operacyjnych zdefiniowana jest w pliku \"/boot/grub/grub.cfg\".",
+            "Wywołanie polecenia \"update-grub\" powoduje uruchomienie skryptów umieszczonych w katalogu \"/etc/grub.d\"",
+            "Po wywołaniu polecenia \"update-grub\" skrypt \"30_os-prober\" zostanie uruchomiony przed skryptem \"10_linux\"."
+          ],
+          "values": [
+            false,
+            true,
+            true,
+            false
+          ]
+        },
+        {
+          "question": "Jakim poleceniem tworzony (bądź aktualizowany) jest plik konfiguracyjny /boot/grub.grub.cfg?",
+          "answers": [
+            "grub-config",
+            "grub-install",
+            "grub-refresh",
+            "update-grub"
+          ],
+          "values": [
+            false,
+            false,
+            false,
+            true
+          ]
+        },
+        {
+          "question": "Na jednym fizycznym komputerze, na osobnych partycjach są zainstalowane systemy Ubuntu Linux i Windows 7. Przy obecnej konfiguracji użytkownik ma możliwość (przy użyciu bootmanagera GRUB 2) uruchomienia TYLKO systemu Ubuntu. W jaki sposób można zapeewić użytkownikowi możliwość wyboru systemu operacyjnego przy uruchamianu komputera?",
+          "answers": [
+            "Należy utworzyć własny plik z odpowiednim wpisem systemu oraz prawami uruchamiania w /etc/grub.d/, a następnie zaktualizować pliki konfiguracyjne GRUB'a",
+            "Dodać odpowiedni wpis w pliku /boot/grub/grub.cfg",
+            "Należy włożyć dysk instalacyjny Windowsa i z linii poleceń, za pomocą komendy bootrec /fixmbr zainstalować w MBR bootloader dla systemu Windows",
+            "Ustawić prawa uruchamiania dla skryptu /etc/grub.d/30_os-prober oraz uruchomić update-grub"
+          ],
+          "values": [
+            true,
+            true,
+            false,
+            true
+          ]
+        },
+        {
+          "question": "Zaznacz, które z podanych plików w systemach z rodziny Linux zawierają informacje o systemach, które mają zostać automatycznie zamontowane przy uruchomieniu systemu operacyjnego.",
+          "answers": [
+            "/boot/grub/grub.cfg",
+            "/etc/default/grub",
+            "/etc/mtab",
+            "/etc/fstab"
+          ],
+          "values": [
+            false,
+            false,
+            false,
+            true
+          ]
+        },
+        {
+          "question": "Wskaż wszystkie poprawne odpowiedzi dotyczące bootmanagera GRUB2",
+          "answers": [
+            "Skrypty konfiguracyjne znajdujące się w katalogu /etc/grub.d/ uruchamiane są w momencie wywołania grub-update",
+            "Nie wymaga aktualizowania pliku /etc/boot/grub.cfg po wprowadzeniu zmian do pliku konfiguracyjnego /etc/default/grub - zawartość tego pliku odczytywana jest na bieżąco w momencie uruchamiania systemu.",
+            "Jest domyślnym managerem bootowania systemu Linux Ubuntu od dystrybucji 9.10",
+            "Plik /boot/grub/grub.cfg jest jednym z najistotniejszych plików konfiguracyjnych managera GRUB2"
+          ],
+          "values": [
+            true,
+            false,
+            true,
+            true
+          ]
+        },
+        {
+          "question": "Program fdisk",
+          "answers": [
+            "Pozwala na sformatowanie wybranej partycji",
+            "Wywołany z parametrem -i wyświetla tablice partycji dla podanych urządzeń",
+            "Pozwala na obsługę tablicy partycji systemu linux",
+            "Zmiany wprowadzone za pomocą tego programu automatycznie modyfikują zawartość plików /etx/fstab i /etc/mtab"
+          ],
+          "values": [
+            true,
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "question": "Jeżeli nie chcemy, aby konfiguracja zdefiniowana w pewnym skrypcie konfiguracyjnym GRUBA znajdującym się w katalogu /etc/grub.d/ była uwzględniona po wykonaniu polecenia update-grub, należy:",
+          "answers": [
+            "Zabrać temu skryptowi uprawnienia zapisu",
+            "Wprowadzić odpowiednie zmiany w pliku /etc/default/grub",
+            "Zabrać temu skryptowi uprawnienia odczytu",
+            "Zabrać temu skryptowi uprawnienia wykonywalności"
+          ],
+          "values": [
+            false,
+            false,
+            false,
+            true
+          ]
+        },
+        {
+          "question": "Plik /etc/fstab zawiera informacje o:",
+          "answers": [
+            "systemach plików montowanych podczas uruchomienia systemu",
+            "aktualnie zamontowanych systemach plików",
+            "tablicach partycji na aktualnie podłączonych dyskach",
+            "mapowaniu identyfikatorów UUID na oznaczenia linuksowe (sda, sdb, itd.)"
+          ],
+          "values": [
+            true,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "question": "Wskaż prawdziwe zdania:",
+          "answers": [
+            "Plik /boot.grub/grub.cfg jest generowany automatycznie na podstawie skryptów z katalogu /etc/grub.d/",
+            "Pod Windowsem możliwe jest odczytywanie partycji ext2/ext3 za pomocą dodatkowego oprogramowania",
+            "Pod Linuksem jest możliwość obsługi partycji NTFS, ale jedynie w trybie do odczytu",
+            "GRUB jest w stanie uruchamiać jedynie Linuksa i Windowsa"
+          ],
+          "values": [
+            true,
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "question": "Domyślnie skrypt /etc/grub.d/30_os-prober",
+          "answers": [
+            "ustawia tło, kolory tekstu, motyw graficzny",
+            "lokalizuje jądra hurd",
+            "lokalizuje jądro Linuksa",
+            "wyszukuje w każdej partycji systemów operacyjnych i integruje je w startowym menu"
+          ],
+          "values": [
+            false,
+            false,
+            false,
+            true
+          ]
+        },
+        {
+          "question": "Plik /etc/mtab przechowuje informacje o:",
+          "answers": [
+            "Systemach plików montowanych przy starcie systemu",
+            "Aktualnie zamontowanych systemach plików",
+            "Systemach plików oczekujących na zamontowanie w systemie",
+            "Systemach plików, które z jakiś powodów nie mogły zostać zamontowane i pojawić się tym samym pliku /etc/fstab"
+          ],
+          "values": [
+            false,
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "question": "Dodanie systemu operacyjnego do menu GRUB'a może nastąpić w wyniku",
+          "answers": [
+            "wykonania standardowego skryptu 30_os-prober, a następnie wykonania polecenia update-grub",
+            "stworzenia własnego skryptu w katalogu /etc/grub.d/, a następnie wykonania polecenia update-grub",
+            "dodania odpowiedniego wpisu do pliku device.map, a następnie wykonania polecenia update-grub",
+            "dodania odpowiedniego wpisu do pliku 40_custom, a następnie wykonania polecenia update-grub"
+          ],
+          "values": [
+            true,
+            true,
+            false,
+            true
+          ]
+        },
+        {
+          "question": "Wskaż wszystkie poprawne zdania odnoścnie pliku device.map",
+          "answers": [
+            "Ręczna zmiana pliku device.map wymaga aktualizacji konfiguracji GRUBa",
+            "Zawiera zmapowane nazwy urządzeń GRUBa na nazwy Linuxowe",
+            "Po każdym restarcie systemu zapisywana jest do niego aktualna struktura dysków.",
+            "W wersji bootloadera GRUB2 plik ten nie istnieje"
+          ],
+          "values": [
+            true,
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "question": "Parametr ro w opcjach montowania pliku etc/fstab oznacza, że:",
+          "answers": [
+            "możliwy jest zapis i odczyt na danym systemie plików",
+            "system plików jest zamontowany w trybie tylko do odczytu",
+            "urządzenie może być montowane przez użytkownika",
+            "system plików może być montowany przez każdego użytkownika"
+          ],
+          "values": [
+            false,
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "question": "Dodajemy własny wpis do menu GRUB2. Które z poniższych wartości parametru \"setroot\" bloku menuentry są poprawne?",
+          "answers": [
+            "setroot = (hda,1)",
+            "setroot = (hd0, msdos1)",
+            "setroot = (sda,1)",
+            "setroot = (hd0,1)"
+          ],
+          "values": [
+            false,
+            true,
+            false,
+            true
+          ]
+        },
+        {
+          "question": "Informacje na temat wszystkich systemów plików, które mają być montowane podczas uruchamiania systemu znajdują się w pliku:",
+          "answers": [
+            "/mnt",
+            "/etc/fstab",
+            "/etc/default/fstab",
+            "/etc/mtab"
+          ],
+          "values": [
+            false,
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "question": "Plik /boot/grub/grub.cfg zawiera:",
+          "answers": [
+            "tryb, w jakim ma się ładować system.",
+            "liste systemów operacyjnych, które można uruchomić za pomocą GRUBa",
+            "informację o tym, który system jest systemem domyślnym.",
+            "czas oczekiwania na wybór systemu przez użytkownika, po upływie którego uruchomi się domyślny system."
+          ],
+          "values": [
+            true,
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "question": "Plik /boot/grub/grub.cfg:",
+          "answers": [
+            "Aktualizowany jest poleceniem update-grub",
+            "Zawiera definicje systemów operacyjnych możliwych do uruchomienia przez program rozruchowy",
+            "Nie powinien być ręcznie modyfikowany",
+            "Jest tworzony tylko na podstawie konfiguracji zdefiniowanej w /etc/default/grub"
+          ],
+          "values": [
+            true,
+            true,
+            true,
+            false
+          ]
+        },
+        {
+          "question": "Jakie informacje na temat zamontowanych systemów plików znajdują się w /etc/fstab?",
+          "answers": [
+            "Data zamontowania urządzenia.",
+            "Miejsce zamontowania systemu plików",
+            "Typ systemu plików.",
+            "Wielkość partycji."
+          ],
+          "values": [
+            false,
+            true,
+            true,
+            false
+          ]
+        },
+        {
+          "question": "Zaznacz zdania poprawne dotyczące odwoływania się do systemów plików w systemie Linux.",
+          "answers": [
+            "/dev/fd0 - oznacza dyskietkę",
+            "/dev/hdd2 - oznacza drugą partycję znajdującą się na dysku \"slave\" podpiętego do drugiego kontrolera IDE.",
+            "/dev/sda1 - oznacza pierwszą partycję pierwszego dysku SCSII lub drugą partycję na kontrolerze SATA1.",
+            "/dev/ssd1 - oznacza pierwszą partycję dysku stworzonego w oparciu o technologię SSD"
+          ],
+          "values": [
+            true,
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "question": "Plik /etc/fstab:",
+          "answers": [
+            "może być modyfikowany przez administratora systemu",
+            "zawiera informacje o aktualnie zalogowanych użytkownikach",
+            "Jest odczytywany w trakcie uruchamiania systemu operacyjnego",
+            "zawiera informacje o systemach plików, jakie mają być montowane w trakcie uruchamiania systemu."
+          ],
+          "values": [
+            true,
+            false,
+            true,
+            true
+          ]
+        },
+        {
+          "question": "Na jednej maszynie zainstalowane są systemy Windows 7 oraz Ubuntu Linux:",
+          "answers": [
+            "W systemie Linux możemy zamontować partycję Windowsową jako katalog korzystając z polecenia mnt.",
+            "W systemie Windows dostęp do partycji Linuxowych konfigurowany jest automatycznie.",
+            "W pliku /etc/fstab znajduje się przyporządkowanie partycji ich punktom montowania",
+            "Przy starcie systemu Linux partycje Windowsowe są montowane automatycznie, jeśli dodamy odpowiedni wpis do pliku /etc/fstab"
+          ],
+          "values": [
+            true,
+            false,
+            true,
+            true
+          ]
+        },
+        {
+          "question": "Plik o domyślnej nazwie „/etc/grub.d/40_custom” służy do:",
+          "answers": [
+            "Tworzenia własnych wpisów w menu bootloadera.",
+            "Zmiany czasu oczekiwania na wybór systemu przez użytkownika.",
+            "Zaimportowania parametrów zdefiniowanych w pliku „/etc/default/grub”",
+            "Ustawiania elementów wizualnych bootloadera."
+          ],
+          "values": [
+            true,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "question": "Informacje na temat wszystkich systemów plików, które mają być montowane podczas uruchamiania systemu znajdują się w pliku:",
+          "answers": [
+            "/etc/mtab",
+            "/etc/default/fstab",
+            "/mnt",
+            "/etc/fstab"
+          ],
+          "values": [
+            false,
+            false,
+            false,
+            true
+          ]
+        },
+        {
+          "question": "Aby zmienić ustawienia menu GRUB2 (np. zwiększyć czas oczekiwania na wybór systemu operacyjnego) POWINNO SIĘ:",
+          "answers": [
+            "w konsoli wpisać komendę: sudo update-grub z odpowiednim parametrem",
+            "wpisać odpowiednie polecenie w linii komend po uruchomieniu menu GRUB2",
+            "edytować plik konfiguracyjny /boot/grub/grub.cfg",
+            "edytować odpowiedni skrypt z /etc/grub.d/"
+          ],
+          "values": [
+            false,
+            false,
+            false,
+            true
+          ]
+        },
+        {
+          "question": "Zaznacz prawdziwe zdania dotyczące partycji wymiany (SWAP) w systemie Linux:",
+          "answers": [
+            "Domyślnie jest na niej zapisywany zrzut pamięci RAM przy hibernacji",
+            "Można go aktywować i dezaktywować podczas działania systemu",
+            "Jest zamontowana w katalogu /swap",
+            "Jest konieczna do działania systemu Linux"
+          ],
+          "values": [
+            true,
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "question": "Aby dodać system do listy rozruchowej w programie GRUB2 należy:",
+          "answers": [
+            "Ręcznie zaktualizować plik /boot/grub/grub.cfg",
+            "Dodać odpowiedni skrypt do katalogu /etc/grub.d/",
+            "Program GRUB2 posiada interfejs graficzny i każdą zmianę należy wykonywać tylko i wyłącznie w środowisku graficznym.",
+            "Zaktualizować plik /boot/grub/grub.cfg poleceniem update-grub"
+          ],
+          "values": [
+            false,
+            true,
+            false,
+            true
+          ]
+        },
+        {
+          "question": "Jeżeli do plików lub skryptów konfiguracyjnych managera bootwania GRUB wprowadzimy jakieś zmiany, musimy zaktualizować plik grub.cfg za pomocą polecenia:",
+          "answers": [
+            "new-grub",
+            "update-grub",
+            "grub-update",
+            "grub-mkdevicemap"
+          ],
+          "values": [
+            false,
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "question": "Program Grub pozwala na:",
+          "answers": [
+            "Wybór systemu operacyjnego, który będzie uruchomiony.",
+            "Rekompilację jądra Linux",
+            "Automatyczne uruchomienie wybranego systemu z pominięciem wyświetlania ekranu wyboru.",
+            "Zarządzanie dyskami i ich partycjonowanie"
+          ],
+          "values": [
+            true,
+            false,
+            true,
+            false
+          ]
+        },
+        {
+          "question": "W jaki sposób dodajemy informacje o innych systemach operacyjnych do GRUB2?",
+          "answers": [
+            "GRUB2 sam wykryje wszystkie systemy operacyjne bez konfiguracji",
+            "Można nadać prawa wykonywania skryptowi:/etc/grub.d/30_os-prober. Grub2 podczas aktualizacji wyszuka dostępne systemy operacyjne na dyskach twardych",
+            "Należy wykonać polecenie grub2-add-new-os z prawami użytkownika",
+            "Do pliku /etc/grub.d/40_custom dodajemy wpis o systemie, następnie uruchamiamy polecenie sudo update-grub2"
+          ],
+          "values": [
+            false,
+            true,
+            false,
+            true
+          ]
+        },
+        {
+          "question": "Wskaż poprawne nazewnictwa partycji i dysków w GRUB z odpowiednim dla niego wyjaśnieniem:",
+          "answers": [
+            "(hd0,0) – pierwsza partycja na pierwszym dysku",
+            "(hd0,msdos5) oznacza pierwszą partycję rozszerzoną (extended)",
+            "(sda2,2) – trzecia partycja na drugim dysku",
+            "(hd3,2) – trzecia partycja na drugim dysku"
+          ],
+          "values": [
+            false,
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "question": "Zaznacz poprawne odpowiedzi dotyczące pliku /etc/fstab",
+          "answers": [
+            "jest automatycznie modyfikowany podczas użycia polecenia mount",
+            "jest on odczytywany w trakcie uruchamiania systemu",
+            "zawiera informacje na temat znajdujących się w systemie dysków twardych, ich partycji oraz punktów i parametrów montowania",
+            "nie jest odczytywany w trakcie uruchamiania systemu"
+          ],
+          "values": [
+            false,
+            true,
+            true,
+            false
+          ]
+        },
+        {
+          "question": "Mówiąc o wymianie danych między systemem Linux a system Windows prawdą jest, że:",
+          "answers": [
+            "System Linux nie wymaga dodatkowego oprogramowania, aby uzyskać dostęp do partycji NTFS",
+            "W systemie Linux tylko root może zapisywać na partycji NTFS",
+            "Dostępne oprogramowanie dla systemu Windows nie pozwala na modyfikowanie plików zapisanych na partycji Ext3",
+            "System Windows nie wymaga dodatkowego oprogramowania, aby uzyskać dostęp do partycji Ext3"
+          ],
+          "values": [
+            true,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "question": "Co znajduje się w katalogu /dev/disk/by-uuid ?",
+          "answers": [
+            "Linki symboliczne do wszystkich partycji zamontowanych obecnie w systemie",
+            "Nie ma takiego folderu",
+            "Linki symboliczne do wszystkich urządzeń fizycznych podłączonych do komputera",
+            "Informacja na temat tego, jakie UUIDy zostały przypisane poszczególnym urządzeniom (partycjom) w systemie."
+          ],
+          "values": [
+            true,
+            false,
+            false,
+            true
+          ]
+        },
+        {
+          "question": "Wskaż poprawne zdania na temat oznaczenia dysku /dev/ssd3\"",
+          "answers": [
+            "Jest to czwarta partycja czwartego dysku SATA",
+            "Jest to czwarta partycja trzeciego dysku SATA",
+            "Jest to trzecia partycja czwartego dysku SATA",
+            "Oznaczenie nie jest poprawne"
+          ],
+          "values": [
+            false,
+            false,
+            true,
+            false
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DSO - Linux - Usługi graficzne Xwindow",
+      "questions": [
+        {
+          "question": "Wskaż wszystkie poprawne stwierdzenia odnoszące się do X Window System",
+          "answers": [
+            "Został on zaprojektowany w architekturze klient-serwer",
+            "Jest to zbiór funkcji i protokołów wyświetlających informacje graficzne na ekranie",
+            "Odpowiada za wygląd okien wyświetlanych w systemie",
+            "Pozwala na zdalną pracę na odległym komputerze, wykorzystując komputer lokalny jako serwer X"
+          ],
+          "values": [
+            true,
+            true,
+            false,
+            true
+          ]
+        },
+        {
+          "question": "Które z podanych komponentów NIE wchodzi w skład X Window System",
+          "answers": [
+            "Serwer Apache",
+            "Menadżer okien",
+            "Baza danych",
+            "X serwer"
+          ],
+          "values": [
+            true,
+            false,
+            true,
+            false
+          ]
+        },
+        {
+          "question": "Czym różnią się xdm/gdm/lightdm i startx?",
+          "answers": [
+            "Gdy X zostanie opuszczony za pomocą polecenia zakończenia menadżera okna Xdm ponownie pokazuje ekran logowania",
+            "Xdm/Gdm/lightdm uruchamia ekran logowania",
+            "Startx uruchamia ekran logowania",
+            "Gdy X zostanie opuszczony za pomocą polecenia zakończenia menadżera okna startx ponownie pokazuje ekran logowania"
+          ],
+          "values": [
+            true,
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "question": "Polecenie Xorg -configure",
+          "answers": [
+            "Jest narzędziem graficznym",
+            "Pracuje w trybie tekstowym",
+            "Służy do konfiguracji X-serwera",
+            "Modyfikuje/Generuje domyślny plik Xorg.conf"
+          ],
+          "values": [
+            false,
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "question": "Wpis do /etc/X11/xorg.conf:  Section \"Device\" \n Identifier \"Videocard0\" \n Driver \"nvidia\" \n Endsection",
+          "answers": [
+            "wykorzysta sterownik nvidia do obsługi pierwszej karty graficznej",
+            "jest niepoprawnym wpisem",
+            "utworzy nową wirtualną kartę graficzną",
+            "nic nie zmieni, bo plik konfiguracyjny Xorg znajduje się w innej lokalizacji"
+          ],
+          "values": [
+            true,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "question": "Manager okien w systemie Linux",
+          "answers": [
+            "Jest X-Serwerem",
+            "zarządza pamięcią X-serwera",
+            "Jest odpowiedzialny za wygląd i funkcjonalność pulpitu",
+            "Jest odpowiedzialny za wygląd okien"
+          ],
+          "values": [
+            false,
+            false,
+            true,
+            true
+          ]
+        },
+        {
+          "question": "Wartości domyślne używane przez standardowe aplikacje Systemu X mogą zostać zmienione. Służą do tego pliki w katalogu:",
+          "answers": [
+            "~app-defaults/˜",
+            "/etc/X11/app-defaults/",
+            "~defaults-app-values/",
+            "/etc/X11/default-app-values"
+          ],
+          "values": [
+            false,
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "question": "Dostępne są 2 komputery, serwer - saturn, oraz klient - jupiter. Po wykonaniu komend na komputerze saturn: \n $ xhost +jupiter \n na komputerze jupiter: \n $ export DISPLAY=saturn:0 \n $ xeyes \n Efektem będzie:",
+          "answers": [
+            "Wynik programu \"xeyes\" widziany będzie na obu komputerach",
+            "Wynik programu \"xeyes\" widziany będzie tylko na komputerze saturn",
+            "Program \"xeyes\" wykonany zostanie na komputerze jupiter",
+            "Program \"xeyes\" wykonany zostanie na komputerze saturn"
+          ],
+          "values": [
+            false,
+            true,
+            true,
+            false
+          ]
+        },
+        {
+          "question": "Menadżerem okien jest:",
+          "answers": [
+            "gdm",
+            "lightdm",
+            "KDE",
+            "Gnome"
+          ],
+          "values": [
+            false,
+            false,
+            true,
+            true
+          ]
+        },
+        {
+          "question": "X11 (X Window System) to:",
+          "answers": [
+            "Graficzny system komputerowy",
+            "Manager okien",
+            "Aplikacja pozwalająca na zalogowanie się do systemu",
+            "żadna z powyższych"
+          ],
+          "values": [
+            true,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "question": "System X",
+          "answers": [
+            "jest zaprojektowany w architekturze klient-serwer",
+            "odpowiada za obsługę okien",
+            "odpowiada za obsługę urządzeń wejścia",
+            "odpowiada za zamykanie/otwieranie programów"
+          ],
+          "values": [
+            true,
+            false,
+            true,
+            false
+          ]
+        },
+        {
+          "question": "X Window Server",
+          "answers": [
+            "...zajmuje się obsługą urządzeń wejściowych (myszki, klawiatury, tabletu).",
+            "...dostarcza rozbudowany interfejs użytkownika.",
+            "...zajmuje się obsługą okien, dostarcza wbudowane mechanizmy do ich przesuwania, zmiany rozmiaru, zamykania i uruchamiania programów itd.",
+            "...udostępnia interfejs graficzny i pozwala rysować nieskomplikowane elementy na ekranie."
+          ],
+          "values": [
+            true,
+            false,
+            false,
+            true
+          ]
+        },
+        {
+          "question": "Zaznacz implementacje X Window System",
+          "answers": [
+            "XFree86",
+            "Gnome",
+            "KDE",
+            "X.Org"
+          ],
+          "values": [
+            true,
+            false,
+            false,
+            true
+          ]
+        },
+        {
+          "question": "Dodatkowe skrypty startowe Systemu X Window mogą być zdefiniowane w",
+          "answers": [
+            "~.xinitrc",
+            "/etc/X11/xinit/xinitrc",
+            "/etc/xorgrc",
+            "~.xorgrc"
+          ],
+          "values": [
+            true,
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "question": "Podaj polececenie potrzebne o uruchomienia Xwindow",
+          "answers": [
+            "startx",
+            "/etc/init.d/gdm start",
+            "/etc/X11/xorg start",
+            "setx start"
+          ],
+          "values": [
+            true,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "question": "Domyślne skróty klawiszowe dla serwera X, to:",
+          "answers": [
+            "Alt+[Ctrl]+[FX], gdzie X={1,2...7 - przełączanie się między konsolami tekstowymi. Zazwyczaj [Alt] + [F7] pozwala na przełączenie z trybu tekstowego  w tryb graficzny.",
+            "Alt + [Ctrl] + [F12] - otwiera tekstowy menadżer konfiguracji serwera X.",
+            "Alt + [Esc] - restart serwera X",
+            "Ctrl + [Alt] + [Backspace] - wyłączenie serwera X."
+          ],
+          "values": [
+            true,
+            false,
+            false,
+            true
+          ]
+        },
+        {
+          "question": "W jaki sposób można uruchomić powłokę graficzną w systemie Linux?",
+          "answers": [
+            "Skorzystać z menadżera wyświetlania, np. xdm",
+            "Uruchomić aplikację startową dostarczaną wraz ze środowiskiem graficznym, np startxfce4",
+            "Może być skonfigurowany do uruchomienia na odpowiednim poziomie uruchomieniowym",
+            "Skorzystać ze skryptu startowego startx/xinit"
+          ],
+          "values": [
+            true,
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "question": "Plik /etc/X11/Xorg.conf pozwala na zmianę:",
+          "answers": [
+            "Ustawień myszy i klawiatury.",
+            "Modelu używanej karty graficznej i jej parametrów.",
+            "Rozdzielczości ekranu oraz częstotliwości odświeżania.",
+            "Zakres odświeżania pionowego dla używanego monitora."
+          ],
+          "values": [
+            true,
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "question": "Uruchomienie w konsoli któregoś z menadżerów ekranu (ang. Display Manager, np gdm, xdm, lightdm) przez użytkownika root, przy założeniu, że X nie jest uruchomiony, spowoduje:",
+          "answers": [
+            "nie można uruchomić menadżera ekranu z konsoli",
+            "uruchomienie sesji X użytkownika, który uruchamiał polecenie",
+            "zakończenie sesji użytkownika root, w której wykonał polecenie",
+            "wyświetlenie ekranu logowania"
+          ],
+          "values": [
+            false,
+            false,
+            false,
+            true
+          ]
+        },
+        {
+          "question": "W skład X-Window wchodzi:",
+          "answers": [
+            "Menadżer Okien",
+            "X-Writer",
+            "X-Serwer",
+            "X-klient"
+          ],
+          "values": [
+            true,
+            false,
+            true,
+            true
+          ]
+        },
+        {
+          "question": "Zaznacz zdania prawidzwe na temat podsystemu graficznego X Windows:",
+          "answers": [
+            "Jego implementacją jest np. Gnome lub KDE.",
+            "Jego implementacją jest X.org oraz XFree86",
+            "Po jego uruchomieniu oraz systemu Linux istnieje możliwość przejścia z trybu graficznego do konsoli tekstowej za pomocą skrótu ALT+CTRL+1",
+            "Po jego uruchomieniu oraz systemu Linux istnieje możliwość przejścia z trybu graficznego do konsoli tekstowej za pomocą skrótu ALT+CTRL+F1"
+          ],
+          "values": [
+            false,
+            true,
+            false,
+            true
+          ]
+        },
+        {
+          "question": "Plik /etx/X11/xorg.conf",
+          "answers": [
+            "(Nie wiadomo co jest tu napisane, zdaniem starszych roczników fałsz)",
+            "Zawiera ustawienia menadżera okien, takie jak np. ułożenie ikon na pulpicie, kolory, style obramowania okien itp.",
+            "Zawiera konfigurację urządzeń wejścia/wyjścia podłączonych do komputera",
+            "Jest plikiem wykonywalnym"
+          ],
+          "values": [
+            false,
+            false,
+            true,
+            false
+          ]
+        },
+        {
+          "question": "Wskaż poprawne zdania dotyczące pliku konfiguracyjnego Xorg.conf",
+          "answers": [
+            "W pliku Xorg.conf może znaleźć się tylko jedna sekcja Device",
+            "Rozdzielczość monitora definiuje się po słowie Modes",
+            "W jednej sekcji Display może zdefiniować maksymalnie jedną rozdzielczość monitora.",
+            "W jednej sekcji Display może zdefiniować maksymalnie jedną głębię kolorów monitora."
+          ],
+          "values": [
+            false,
+            true,
+            false,
+            true
+          ]
+        },
+        {
+          "question": "Zaznacz prawidłowe stwierdzenia:",
+          "answers": [
+            "xinit wywołuje xterm",
+            "xterm wywołuje xinit",
+            "startx wywołuje xinit",
+            "xinit wywołuje xstart"
+          ],
+          "values": [
+            true,
+            false,
+            true,
+            false
+          ]
+        },
+        {
+          "question": "Plik konfiguracyjny X-Serwera (w systemie X.org)",
+          "answers": [
+            "nie jest wymagany (x-serwer wykona wtedy konfigurację dynamiczną)",
+            "musi zawierać sekcje Device, Monitor, Screen, Keyboard, Mouse",
+            "musi zawierać przynajmniej sekcję Device",
+            "musi zawierać skecje Device, Monitor, Screen oraz Display"
+          ],
+          "values": [
+            true,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "question": "W pliku /etx/X1/xorg.conf mamy możliwość skonfigurowania:",
+          "answers": [
+            "rozdzielczości, z jaką startuje system graficzny",
+            "myszy",
+            "drukarek, które są dostępne w systemie",
+            "sterownika grafiki, z którego skorzystać ma system"
+          ],
+          "values": [
+            true,
+            true,
+            false,
+            true
+          ]
+        },
+        {
+          "question": "X Window System:",
+          "answers": [
+            "zawiera mechanizmy obsługi klawiatury i myszy",
+            "dostarcza graficzny interfejs użytkownika (okna, przyciski itd.)",
+            "Jest rozbudowanym serwerem VNC",
+            "zawiera protokoły sieciowe umożliwiające wykonywanie programów X w jednym komputerze i wyświetlanie rezultatu ich pracy na drugim"
+          ],
+          "values": [
+            true,
+            false,
+            false,
+            true
+          ]
+        },
+        {
+          "question": "Które z podanych zdań prawidłowo opisują architekturę X Widnow System?",
+          "answers": [
+            "Serwer X jest lokalny i działa na komputerze użytkownika.",
+            "Klienci zawsze działają lokalnie, natomiast serwer X może działać na innej maszynie.",
+            "Klienci mogą działać na różnych maszynach.",
+            "Zarówno serwer X, jak i klienci muszą działać lokalnie, na komputerze użytkownika."
+          ],
+          "values": [
+            true,
+            false,
+            true,
+            false
+          ]
+        },
+        {
+          "question": "Zaznacz zdania prawdziwe dotyczące systemu Linux",
+          "answers": [
+            "Środowisko graficzne X jest uruchamiane zawsze przy starcie systemu, niezależnie od konfiguracji.",
+            "W czasie pracy w sieci z wykorzystaniem Xwindow: X-Serwer jest uruchomiony na lokalnym komputerze, z którego odbywa się sterowanie, natomiast X-Klient na serwerze zdalnym, gdzie odbywa się przetwarzanie danych.",
+            "Xwindow pozwala pracować jedynie w trybie z jednym użytkownikiem.",
+            "Przejścia między konsolami tekstowymi odbywa się przy pomocy klawiszów [Alt]+[Ctrl]+[F1] do [F6]"
+          ],
+          "values": [
+            false,
+            true,
+            false,
+            true
+          ]
+        },
+        {
+          "question": "Co jest dodatkowym elementem systemu X Window",
+          "answers": [
+            "Serwer czcionek",
+            "Zarządca okien (window manager)",
+            "Serwer plików tekstowych",
+            "Zarządca sieci (network-manager)"
+          ],
+          "values": [
+            true,
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "question": "Jakie sekcje może zawierać plik Xorg.conf",
+          "answers": [
+            "WindowManager",
+            "Device",
+            "Screen",
+            "Monitor"
+          ],
+          "values": [
+            false,
+            true,
+            true,
+            true
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DSO - Linux - Kernel",
+      "questions": [
+        {
+          "question": "Zaznacz wszystkie poprawne odpowiedzi:",
+          "answers": [
+            "Jądro Linuxa jest mikrojądrem (microkernel)",
+            "Jądro Linuxa jest jądrem typu hybrydowego (hybrid)",
+            "Jądro Linuxa jest jądrem typu monolitycznego (monolythic)",
+            "Jądro Linuxa jest napisane w C++"
+          ],
+          "values": [
+            false,
+            false,
+            true,
+            false
+          ]
+        },
+        {
+          "question": "Zaznacz wszystkie poprawne odpowiedzi:",
+          "answers": [
+            "Jądro Linuxa wykorzystuje bibliotekę libc (dzięki temu można wykorzystywać np. funkcję printf()",
+            "Jądro Linuxa jest napisane w C",
+            "Jądro Linuxa zarządza pamięcią operacyjną (przydziały/zwolnienia).",
+            "ZOSTAWIĆ PUSTE"
+          ],
+          "values": [
+            false,
+            true,
+            true,
+            false
+          ]
+        },
+        {
+          "question": "Zaznacz wszystkie poprawne odpowiedzi:",
+          "answers": [
+            "Do sterowania parametrami pracy jądra można wykorzystać pliki znajdujące się w katalogu \"/var\"",
+            "Do sterowania pracą jądra Linuxa można wykorzystać polecenie \"sysctl\"",
+            "Do jądra systemu operacyjnego Linux można, w czasie jego pracy, dołączać różnorodną funkcjonalność (np. sterowniki urządzenia)",
+            "Do załadowania modułu w jądrze można wykorzystać polecenia rmmod oraz modprobe -r"
+          ],
+          "values": [
+            false,
+            true,
+            true,
+            false
+          ]
+        },
+        {
+          "question": "Zaznacz wszystkie poprawne odpowiedzi:",
+          "answers": [
+            "Do sterowania parametrami pracy jądra można wykorzystać pliki znajdujące się w katalogu \"/proc\"",
+            "Do sterowania pracą jądra Linuxa można wykorzystać polecenie \"sysinfo\"",
+            "Do usunięcia modułu z jądra można wykorzystać polecenie insmod",
+            "Do sprawdzenia jakie moduły załadowane są do jądra można wykorzystać polecenie lsmod"
+          ],
+          "values": [
+            true,
+            false,
+            false,
+            true
+          ]
+        },
+        {
+          "question": "Zaznacz wszystkie poprawne odpowiedzi:",
+          "answers": [
+            "Do załadowania modułu w jądrze można wykorzystać polecenie modprobe oraz insmod",
+            "Katalog \"/proc\" zawiera pliki, pozwalające na zmianę sposobu przydzielania pamięci programom przez jądro Linux%",
+            "Katalog \"/var\" zawiera pliki, pozwalające na zmianę sposobu przydzielania pamięci programom przez jądro systemu Linux",
+            "Do usunięcia modułu z jądra można wykorzystać polecenia modprobe oraz mmod"
+          ],
+          "values": [
+            true,
+            true,
+            false,
+            true
+          ]
+        },
+        {
+          "question": "Zaznacz wszystkie poprawne odpowiedzi:",
+          "answers": [
+            "Katalogi /proc, /sys oraz polecenie sysctl pozwalają na kontrolę pracy systemu",
+            "Z jądra systemu operacyjnego Linux, w trakcie jego pracy, można usuwać różnorodną funkcjonalność (na przykład sterowniki urządzenia)",
+            "Do kontroli pracy systemu można wykorzystać polecenia sysctl oraz zawartość katalogu /proc",
+            "Do sprawdzenia jakie moduły załadowane są do jądra można wykorzystać polecenie lsmod"
+          ],
+          "values": [
+            true,
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "question": "Zaznacz wszystkie poprawne odpowiedzi:",
+          "answers": [
+            "Do załadowania modułu w jądrze można wykorzystać polecenia modprobe oraz insmod",
+            "Do kontroli pracy systemu można wykorzystać polecenia sysctl oraz zawartość katalogu /var",
+            "ZOSTAWIĆ PUSTE",
+            "ZOSTAWIĆ PUSTE"
+          ],
+          "values": [
+            true,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "question": "Zaznacz wszystkie funkcje realizowane przez jądro monolityczne (na przykład jądro Linuxa)",
+          "answers": [
+            "Szeregowanie procesów",
+            "Zarządzanie pamięcią (zwalnianie/przydzielanie)",
+            "Szeregowanie I/O",
+            "Obsługa systemu plików"
+          ],
+          "values": [
+            true,
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "question": "Jakie operacje można wykonać za pomocą polecenia sysctl?",
+          "answers": [
+            "Ustawić wartości dla parametrów jądra",
+            "Ustawić wartości dla parametrów systemu plików",
+            "Wypisać wszystkie parametry jądra w trakcie działania systemu",
+            "Wypisać wszystkie parametry systemu plików"
+          ],
+          "values": [
+            true,
+            false,
+            true,
+            false
+          ]
+        },
+        {
+          "question": "Polecenie sysctl:",
+          "answers": [
+            "Służy do zmiany hasła użytkownika systemu",
+            "Umożliwia zmianę nazwy użytkownika",
+            "Wyświetla listę użytkowników w systemie",
+            "Pozwala na zmianę parametrów jądra systemu w trakcie działania systemu operacyjnego"
+          ],
+          "values": [
+            false,
+            false,
+            false,
+            true
+          ]
+        },
+        {
+          "question": "Polecenie sysctl:",
+          "answers": [
+            "To komenda pozwalająca na konfiguracje parametrów jądra systemu Linux.",
+            "Wykonuje konfigurację jaką można także wykonać w wirtualnym systemie plików /proc/sys.",
+            "Pozwala na rekompilację jądra z uwzględnieniem nowych plików konfiguracyjnych.",
+            "Wyświetla wszystkie procesy w systemie."
+          ],
+          "values": [
+            true,
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "question": "Wskaż prawdziwe zdania:",
+          "answers": [
+            "przy overcommit_memory ustawionym na 2 system zawsze przydzieli aplikacjom dokładnie 100% pamięci RAM",
+            "przy overcommit_memory ustawionym na 1 możliwe jest uzyskanie za pomocą malloc() ilości pamięci wirtualnej większej niż objętość pamięci fizycznej + swap",
+            "przy overcommit_memory ustawionym na 2 ilość pamięci przydzielonej aplikacjom zależy od overcommit_ratio",
+            "kernel nigdy nie przydziela więcej pamięci niż jest dostępne fizycznie"
+          ],
+          "values": [
+            false,
+            true,
+            true,
+            false
+          ]
+        },
+        {
+          "question": "Sterowanie jądrem systemu Linux. Zaznacz poprawne odpowiedzi:",
+          "answers": [
+            "Nawet najdrobniejsza zmiana w pracy jądra systemu wymaga jego ponownej kompilacji.",
+            "Możliwa jest zmiana niektórych parametrów jądra w \"locie\" korzystając z komendy sysctl.",
+            "Po każdej zmianie parametru w jądrze systemu Linux należy ponownie uruchomić komputer.",
+            "Wartości sysctl wczytywane są podczas startu systemu z pliku /etc/sysct.conf."
+          ],
+          "values": [
+            false,
+            true,
+            false,
+            true
+          ]
+        },
+        {
+          "question": "Sterowniki w systemach Linuxowych: Wskaż poprawne odpowiedzi.",
+          "answers": [
+            "Można wkompilować w jądro, ale można ładować dynamicznie bez potrzeby wkompilowywania.",
+            "Mogą być ładowane dynamicznie w trakcie działania systemu.",
+            "Są tylko wkompilowane w jądro i uruchamiane automatycznie. Nie ma innej możliwości instalacji i uruchomienia.",
+            "Po instalacji nowego sterownika zawsze wymagane jest ponowne uruchomienie komputera."
+          ],
+          "values": [
+            true,
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "question": "W jaki sposóbm ożna wyłączyć partycję SWAP?",
+          "answers": [
+            "Nie można wyłączyć partycji SWAP",
+            "sudo setswap off",
+            "sudo swapoff -a",
+            "sudo swap stop"
+          ],
+          "values": [
+            false,
+            false,
+            true,
+            false
+          ]
+        },
+        {
+          "question": "Jakie jest zadanie jądra w systemie Linux?",
+          "answers": [
+            "Ładuje i odładowuje sterowniki urządzeń.",
+            "Tylko i wyłącznie zarządza pamięcią.",
+            "Pośredniczy pomiędzy aplikacją użytkownika a sprzętem.",
+            "Zarządza pamięcią."
+          ],
+          "values": [
+            true,
+            false,
+            true,
+            true
+          ]
+        },
+        {
+          "question": "Jądro w systemie Linux odpowiedzialne jest za:",
+          "answers": [
+            "Sterowniki urządzeń",
+            "Wygląd interfejsu graficznego",
+            "Zarządzanie procesami",
+            "Obsługę pamięci"
+          ],
+          "values": [
+            true,
+            false,
+            true,
+            true
+          ]
+        },
+        {
+          "question": "Moduły jądra systemu Linux: wskaż wszystkie poprawne odpowiedzi.",
+          "answers": [
+            "Można pisać w języku C",
+            "Mogą być załadowane przez każdego użytkownika",
+            "Nie posiadają możliwości wyprowadzania danych na standardowe wyjście stdout za pomocą printf",
+            "Można je kompilować na tym samym systemie na którym zamierzamy je uruchomić."
+          ],
+          "values": [
+            true,
+            false,
+            true,
+            true
+          ]
+        },
+        {
+          "question": "Co znajduje się w katalogu /proc/?",
+          "answers": [
+            "Informacje o procesach w systemie",
+            "Informacje o użytkownikach",
+            "Informacje o sieci",
+            "Ogólne informacje o systemie"
+          ],
+          "values": [
+            true,
+            false,
+            true,
+            true
+          ]
+        },
+        {
+          "question": "Program modprobe:",
+          "answers": [
+            "wymaga restartu aby zmiany zostały wprowadzone",
+            "umożliwia usuwanie modułów z kernela",
+            "umożliwia ładowanie modułów kernela",
+            "automatycznie dodaje moduły zależne"
+          ],
+          "values": [
+            false,
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "question": "Parametry jądra systemu Linux można odczytać za pomocą:",
+          "answers": [
+            "pliku /proc/stat",
+            "katalogu /proc/sys",
+            "komendy ps",
+            "komendy sysctl"
+          ],
+          "values": [
+            false,
+            true,
+            false,
+            true
+          ]
+        },
+        {
+          "question": "Które z poniższych komend sprawdza logi jądra systemu Linux",
+          "answers": [
+            "dmesg",
+            "klog",
+            "kmllg",
+            "kernelog"
+          ],
+          "values": [
+            true,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "question": "Jądro systemu operacyjnego Linux:",
+          "answers": [
+            "pośredniczy pomiędzy aplikacjami użytkownika, a sprzętem",
+            "pośredniczy pomiędzy aplikacjami użytkownika, a pamięcią",
+            "służy wyłącznie do uruchomienia systemu i skonfigurowania urządzeń, potem kończy swoją pracę",
+            "NIE pozwala na ładowanie dodatkowych modułów"
+          ],
+          "values": [
+            true,
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "question": "Które ze zdań dotyczących sysctl jest poprawne?",
+          "answers": [
+            "Katalog /proc/sys dostarcza interfejs do parametrów sysctl",
+            "/proc/sys/vm/overcommit_memory jest odpowiednikiem parametru vm.overcommit_memory w sysctl.conf",
+            "jeżeli katalog /proc/sys jest tylko do odczytu to da się mimo to zmieniać parametry przez komendę sysctl",
+            "Wartości sysctl są wczytywane przy starcie systemu z /proc/sys/vm/sysctl.conf"
+          ],
+          "values": [
+            true,
+            true,
+            false,
+            false
+          ]
+        }
+      ]
+    }
+  ]
+}
